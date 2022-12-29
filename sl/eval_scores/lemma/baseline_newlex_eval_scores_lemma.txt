@@ -1,0 +1,95 @@
+lemmatizer:
+---------------------
+---------------------
+
+ambiga:
+
+Lemma score:
+None 97.69
+
+ambiga wolex:
+
+Lemma score:
+None 97.07
+
+ambiga no POS model:
+
+Lemma score:
+None 97.80
+
+elexiswsd:
+
+Lemma score:
+None 98.42
+
+elexiswsd wolex:
+
+Lemma score:
+None 98.48
+
+elexiswsd no POS model:
+
+Lemma score:
+None 98.36
+
+senticoref:
+
+Lemma score:
+None 98.95
+
+senticoref wolex:
+
+Lemma score:
+None 98.96
+
+senticoref no POS model:
+
+Lemma score:
+None 99.28
+
+ssj500k-syn:
+
+Lemma score:
+None 98.63
+
+ssj500k-syn wolex:
+
+Lemma score:
+None 98.54
+
+ssj500k-syn no POS model:
+
+Lemma score:
+None 98.74
+
+ssj500k-tag:
+
+Lemma score:
+None 98.71
+
+ssj500k-tag wolex:
+
+Lemma score:
+None 98.69
+
+ssj500k-tag no POS model:
+
+Lemma score:
+None 98.87
+
+...........................................................
+
+SUK:
+
+Lemma score:
+None 98.76
+
+SUK wolex:
+
+Lemma score:
+None 98.73
+
+SUK no POS model:
+
+Lemma score:
+None 98.97
