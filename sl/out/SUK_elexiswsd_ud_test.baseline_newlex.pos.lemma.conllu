@@ -260,7 +260,7 @@
 5	tekmovanje	tekmovanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
 6	zamenjal	zamenjati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 7	pokal	pokal	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-8	WTA	WTA	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+8	WTA	Wta	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 9	Elite	Elita	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 10	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -296,7 +296,7 @@
 # newpar id = elexiswsd1.1838
 # sent_id = elexiswsd1.1838.sl.132664
 # text = Ko so odkrili 1000. asteroid, so ga njemu na čast poimenovali 1000 Piazzia.
-1	Ko	kot	SCONJ	Cs	_	_	_	_	_
+1	Ko	ko	SCONJ	Cs	_	_	_	_	_
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	odkrili	odkriti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
 4	1000.	1000.	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
@@ -899,7 +899,7 @@
 # newpar id = elexiswsd1.1867
 # sent_id = elexiswsd1.1867.sl.132693
 # text = Ko je izbruhnil škandal, se je vrnila v staro življenje.
-1	Ko	kot	SCONJ	Cs	_	_	_	_	_
+1	Ko	ko	SCONJ	Cs	_	_	_	_	_
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	izbruhnil	izbruhniti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 4	škandal	škandal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -955,7 +955,7 @@
 8	prometnih	prometen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	_	_	_	_
 9	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	_	_	_	_
 10	in	in	CCONJ	Cc	_	_	_	_	_
-11	vse	ves	ADV	Rgp	Degree=Pos	_	_	_	_
+11	vse	vse	ADV	Rgp	Degree=Pos	_	_	_	_
 12	večja	velik	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	_	_	_	_
 13	razširjenost	razširjenost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 14	tehnologij	tehnologija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
@@ -1139,7 +1139,7 @@
 11	leta	leto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
 12	1848	1848	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 13	,	,	PUNCT	Z	_	_	_	_	_
-14	ko	kot	SCONJ	Cs	_	_	_	_	_
+14	ko	ko	SCONJ	Cs	_	_	_	_	_
 15	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 17	upokojil	upokojiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
@@ -1448,7 +1448,7 @@
 13	slaven	slaven	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 14	potem	potem	ADV	Rgp	Degree=Pos	_	_	_	_
 15	,	,	PUNCT	Z	_	_	_	_	_
-16	ko	kot	SCONJ	Cs	_	_	_	_	_
+16	ko	ko	SCONJ	Cs	_	_	_	_	_
 17	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 18	umrl	umreti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 19	.	.	PUNCT	Z	_	_	_	_	_
@@ -2546,7 +2546,7 @@
 # sent_id = elexiswsd1.1951.sl.132777
 # text = Potem ko so bili Francozi izgnani, je moč leta 1805 pridobil Mohamed Ali Paša, albanski vojaški poveljnik otomanske vojske v Egiptu.
 1	Potem	potem	ADV	Rgp	Degree=Pos	_	_	_	_
-2	ko	kot	SCONJ	Cs	_	_	_	_	_
+2	ko	ko	SCONJ	Cs	_	_	_	_	_
 3	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	bili	biti	AUX	Va-p-pm	Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
 5	Francozi	Francoz	PROPN	Npmpn	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
@@ -2798,7 +2798,7 @@
 # sent_id = elexiswsd1.1964.sl.132790
 # text = Vsakič ko ji odrežejo glavo, zrasteta dve novi.
 1	Vsakič	vsakič	ADV	Rgp	Degree=Pos	_	_	_	_
-2	ko	kot	SCONJ	Cs	_	_	_	_	_
+2	ko	ko	SCONJ	Cs	_	_	_	_	_
 3	ji	on	PRON	Pp3fsd--y	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short	_	_	_	_
 4	odrežejo	odrezati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	glavo	glava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
@@ -3307,7 +3307,7 @@
 9	meteorološki	meteorološki	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 10	pojav	pojav	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 11	,	,	PUNCT	Z	_	_	_	_	_
-12	ko	kot	SCONJ	Cs	_	_	_	_	_
+12	ko	ko	SCONJ	Cs	_	_	_	_	_
 13	živali	žival	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
 14	,	,	PUNCT	Z	_	_	_	_	_
 15	ki	ki	SCONJ	Cs	_	_	_	_	_
@@ -3772,7 +3772,7 @@
 24	zelo	zelo	ADV	Rgp	Degree=Pos	_	_	_	_
 25	drugače	drugače	ADV	Rgp	Degree=Pos	_	_	_	_
 26	,	,	PUNCT	Z	_	_	_	_	_
-27	ko	kot	SCONJ	Cs	_	_	_	_	_
+27	ko	ko	SCONJ	Cs	_	_	_	_	_
 28	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	_	_	_	_
 29	predstavimo	predstaviti	VERB	Vmer1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	_
 30	grafično	grafično	ADV	Rgp	Degree=Pos	_	_	_	_
@@ -3962,7 +3962,7 @@
 5	dodatno	dodatno	ADV	Rgp	Degree=Pos	_	_	_	_
 6	poslabšali	poslabšati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
 7	,	,	PUNCT	Z	_	_	_	_	_
-8	ko	kot	SCONJ	Cs	_	_	_	_	_
+8	ko	ko	SCONJ	Cs	_	_	_	_	_
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 10	Chen	Chen	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 11	v	v	ADP	Sa	Case=Acc	_	_	_	_

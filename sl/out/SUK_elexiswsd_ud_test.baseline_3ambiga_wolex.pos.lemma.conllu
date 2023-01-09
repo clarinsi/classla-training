@@ -13,7 +13,7 @@
 10	temo	tema	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 11	urejevalnika	urejevalnik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 12	,	,	PUNCT	Z	_	_	_	_	_
-13	bližnjice	bližnjica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+13	bližnjice	bližnjica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	_	_	_	_
 14	na	na	ADP	Sl	Case=Loc	_	_	_	_
 15	tipkovnici	tipkovnica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 16	in	in	CCONJ	Cc	_	_	_	_	_
@@ -261,7 +261,7 @@
 6	zamenjal	zamenjati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 7	pokal	pokal	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 8	WTA	WTA	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-9	Elite	Elita	PROPN	Npfsg	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+9	Elite	elita	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 10	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1836
@@ -282,7 +282,7 @@
 # newpar id = elexiswsd1.1837
 # sent_id = elexiswsd1.1837.sl.132663
 # text = Sklepali so, da je okrog Urana sistem obročev.
-1	Sklepali	sklepati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
+1	Sklepali	sklepati	VERB	Vmpp-pm	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	,	,	PUNCT	Z	_	_	_	_	_
 4	da	da	SCONJ	Cs	_	_	_	_	_
@@ -299,7 +299,7 @@
 1	Ko	ko	SCONJ	Cs	_	_	_	_	_
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	odkrili	odkriti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
-4	1000.	1000.	NUM	Mdo	NumForm=Digit|NumType=Ord	_	_	_	_
+4	1000.	1000.	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 5	asteroid	asteroid	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 6	,	,	PUNCT	Z	_	_	_	_	_
 7	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -309,13 +309,13 @@
 11	čast	čast	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 12	poimenovali	poimenovati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
 13	1000	1000	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
-14	Piazzia	Piazzio	PROPN	Npmsg	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+14	Piazzia	Piazzio	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 15	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1839
 # sent_id = elexiswsd1.1839.sl.132665
 # text = Denga včasih vpliva na številne druge sisteme v telesu, bodisi samostojno ali skupaj s klasičnimi simptomi mrzlice denge.
-1	Denga	Deng	PROPN	Npmsay	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+1	Denga	Deng	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 2	včasih	včasih	ADV	Rgp	Degree=Pos	_	_	_	_
 3	vpliva	vplivati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	na	na	ADP	Sa	Case=Acc	_	_	_	_
@@ -361,7 +361,7 @@
 # sent_id = elexiswsd1.1841.sl.132667
 # text = Prvi let je bil 4. aprila 2009.
 1	Prvi	prvi	ADJ	Mlomsn	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	_	_	_	_
-2	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+2	let	leto	NOUN	Ncnpg	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 5	4.	4.	NUM	Mdo	NumForm=Digit|NumType=Ord	_	_	_	_
@@ -373,7 +373,7 @@
 # sent_id = elexiswsd1.1842.sl.132668
 # text = S helminti se okuži okoli 800 milijonov ljudi po vsem svetu.
 1	S	z	ADP	Si	Case=Ins	_	_	_	_
-2	helminti	helmint	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+2	helminti	helmint	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	_	_	_	_
 3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 4	okuži	okužiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	okoli	okoli	ADV	Rgp	Degree=Pos	_	_	_	_
@@ -572,15 +572,15 @@
 3	rejenosti	rejenost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 4	ne	ne	PART	Q	Polarity=Neg	_	_	_	_
 5	poznata	poznati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
-6	ne	ne	CCONJ	Cc	_	_	_	_	_
+6	ne	ne	PART	Q	Polarity=Neg	_	_	_	_
 7	grška	grški	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
-8	ne	ne	CCONJ	Cc	_	_	_	_	_
+8	ne	ne	PART	Q	Polarity=Neg	_	_	_	_
 9	rimska	rimski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 10	umetnost	umetnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 11	,	,	PUNCT	Z	_	_	_	_	_
 12	verjetno	verjetno	ADV	Rgp	Degree=Pos	_	_	_	_
 13	zaradi	zaradi	ADP	Sg	Case=Gen	_	_	_	_
-14	njunih	njun	DET	Ps1mpgs	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Dual|Person=1|Poss=Yes|PronType=Prs	_	_	_	_
+14	njunih	njun	DET	Ps3mpgd	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Dual|Person=3|Poss=Yes|PronType=Prs	_	_	_	_
 15	idealov	ideal	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 16	zmernosti	zmernost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 17	.	.	PUNCT	Z	_	_	_	_	_
@@ -627,7 +627,7 @@
 4	notranji	notranji	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 5	trg	trg	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 6	(	(	PUNCT	Z	_	_	_	_	_
-7	IMI	IMI	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+7	IMI	Imi	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 8	)	)	PUNCT	Z	_	_	_	_	_
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 10	omrežje	omrežje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
@@ -650,7 +650,7 @@
 # sent_id = elexiswsd1.1856.sl.132682
 # text = Ime 99U izhaja iz citata Thomasa Edisona: »Genij je 1 % navdiha in 99 % znojenja.«
 1	Ime	ime	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
-2	99U	99U	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
+2	99U	99u	X	X	_	_	_	_	_
 3	izhaja	izhajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 5	citata	citat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
@@ -659,7 +659,7 @@
 8	:	:	PUNCT	Z	_	_	_	_	_
 9	»	»	PUNCT	Z	_	_	_	_	_
 10	Genij	genij	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-11	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 12	1	1	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 13	%	%	SYM	Z	_	_	_	_	_
 14	navdiha	navdih	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
@@ -803,7 +803,7 @@
 # sent_id = elexiswsd1.1863.sl.132689
 # text = Zelo verjetno je tudi, da so v grobnicah ostali različni predmeti, s čimer so se spominjali tistih, ki so preminili.
 1	Zelo	zelo	ADV	Rgp	Degree=Pos	_	_	_	_
-2	verjetno	verjeten	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+2	verjetno	verjetno	ADV	Rgp	Degree=Pos	_	_	_	_
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	tudi	tudi	PART	Q	_	_	_	_	_
 5	,	,	PUNCT	Z	_	_	_	_	_
@@ -859,7 +859,7 @@
 # text = Mestna arhitektura je iz mešanice slogov.
 1	Mestna	mesten	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 2	arhitektura	arhitektura	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-3	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	iz	iz	ADP	Sg	Case=Gen	_	_	_	_
 5	mešanice	mešanica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 6	slogov	slog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
@@ -955,7 +955,7 @@
 8	prometnih	prometen	ADJ	Agpnpg	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	_	_	_	_
 9	sredstev	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	_	_	_	_
 10	in	in	CCONJ	Cc	_	_	_	_	_
-11	vse	ves	ADV	Rgp	Degree=Pos	_	_	_	_
+11	vse	vse	ADV	Rgp	Degree=Pos	_	_	_	_
 12	večja	velik	ADJ	Agcfsn	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	_	_	_	_
 13	razširjenost	razširjenost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 14	tehnologij	tehnologija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
@@ -989,7 +989,7 @@
 3	vseh	ves	DET	Pg-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	_	_	_	_
 4	govorcev	govorec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 5	jezikov	jezik	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
-6	gbe	gbe	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+6	gbe	gba	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 7	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 8	med	med	ADP	Si	Case=Ins	_	_	_	_
 9	4	4	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
@@ -1025,7 +1025,7 @@
 # text = Izvajal je rekvieme za divjad, vključno za kalifornijskega rjavega pelikana, na vrhu sipine ob morju, kjer je žival poginila.
 1	Izvajal	izvajati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
-3	rekvieme	rekviem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
+3	rekvieme	rekvieme	NOUN	Ncmsan	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 4	za	za	ADP	Sa	Case=Acc	_	_	_	_
 5	divjad	divjad	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 6	,	,	PUNCT	Z	_	_	_	_	_
@@ -1063,7 +1063,7 @@
 11	pri	pri	ADP	Sl	Case=Loc	_	_	_	_
 12	ženskah	ženska	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	_	_	_	_
 13	in	in	CCONJ	Cc	_	_	_	_	_
-14	moških	moški	NOUN	Ncmpl	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+14	moških	moški	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	_	_	_	_
 15	vedno	vedno	ADV	Rgp	Degree=Pos	_	_	_	_
 16	bolj	bolj	ADV	Rgc	Degree=Cmp	_	_	_	_
 17	podobne	podoben	ADJ	Agpfpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	_	_	_	_
@@ -1242,7 +1242,7 @@
 # newpar id = elexiswsd1.1885
 # sent_id = elexiswsd1.1885.sl.132711
 # text = Vest o njihovem uspehu je hitro prispela v Pariz.
-1	Vest	vest	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+1	Vest	vest	NOUN	Ncfsa	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 2	o	o	ADP	Sl	Case=Loc	_	_	_	_
 3	njihovem	njihov	DET	Ps3mslp	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	_	_	_	_
 4	uspehu	uspeh	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
@@ -1483,7 +1483,7 @@
 2	velja	veljati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	za	za	ADP	Sa	Case=Acc	_	_	_	_
 4	Lockheed	Lockheed	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-5	F-35B	F-35B	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
+5	F-35B	f-35b	X	X	_	_	_	_	_
 6	Lightning	Lightning	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 7	II	II	NUM	Mrc	NumForm=Roman|NumType=Card	_	_	_	_
 8	:	:	PUNCT	Z	_	_	_	_	_
@@ -1734,9 +1734,9 @@
 12	članke	članek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 13	za	za	ADP	Sa	Case=Acc	_	_	_	_
 14	»	»	PUNCT	Z	_	_	_	_	_
-15	Die	die	X	Xf	Foreign=Yes	_	_	_	_
+15	Die	Die	PROPN	Npmsn	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 16	Jüdische	Jüdische	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-17	Allgemeine	Allgemeine	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+17	Allgemeine	Allgemeine	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 18	«	«	PUNCT	Z	_	_	_	_	_
 19	in	in	CCONJ	Cc	_	_	_	_	_
 20	za	za	ADP	Sa	Case=Acc	_	_	_	_
@@ -1765,7 +1765,7 @@
 12	neposrednim	neposreden	ADJ	Agpmsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 13	stikom	stik	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
 14	kot	kot	SCONJ	Cs	_	_	_	_	_
-15	kapljično	kapljično	ADV	Rgp	Degree=Pos	_	_	_	_
+15	kapljično	kapljičen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 16	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1914
@@ -1778,7 +1778,7 @@
 5	razvoj	razvoj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 6	cepiva	cepivo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
 7	proti	proti	ADP	Sd	Case=Dat	_	_	_	_
-8	dengi	denga	NOUN	Ncfsd	Case=Dat|Gender=Masc|Number=Sing	_	_	_	_
+8	dengi	denga	NOUN	Ncfsd	Case=Dat|Gender=Masc|Number=Plur	_	_	_	_
 9	,	,	PUNCT	Z	_	_	_	_	_
 10	ki	ki	SCONJ	Cs	_	_	_	_	_
 11	naj	naj	PART	Q	_	_	_	_	_
@@ -1844,7 +1844,7 @@
 9	za	za	ADP	Sa	Case=Acc	_	_	_	_
 10	kralja	kralj	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 11	Alfonsa	Alfonso	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-12	Neapeljskega	Neapeljski	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+12	Neapeljskega	Neapeljski	PROPN	Npmsay	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 13	v	v	ADP	Sl	Case=Loc	_	_	_	_
 14	Lombardiji	Lombardija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 15	,	,	PUNCT	Z	_	_	_	_	_
@@ -1995,7 +1995,7 @@
 27	da	da	SCONJ	Cs	_	_	_	_	_
 28	gre	iti	VERB	Vmbr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 29	za	za	ADP	Sa	Case=Acc	_	_	_	_
-30	„	„	NOUN	Ncmsan	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+30	„	„	NOUN	Ncfsa	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 31	imenitno	imeniten	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 32	delo	delo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
 33	“	“	PUNCT	Z	_	_	_	_	_
@@ -2010,7 +2010,7 @@
 4	letnem	leten	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 5	obdobju	obdobje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
 6	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
-7	ITM	ITM	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+7	ITM	ITM	PROPN	Npmsn	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 8	nad	nad	ADP	Si	Case=Ins	_	_	_	_
 9	32	32	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 10	kg	kg	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -2083,7 +2083,7 @@
 # sent_id = elexiswsd1.1928.sl.132754
 # text = Bizmutov subsalicilat, netopen kompleks trivalentnega bizmuta in salicilata, se lahko uporablja pri blagih do zmernih primerih, vendar pa teoretično lahko pride do zastrupitve s salicilatom.
 1	Bizmutov	bizmutov	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	_	_	_	_
-2	subsalicilat	subsalicilati	VERB	Vmep-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
+2	subsalicilat	subsalicilati	NOUN	Ncnpg	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 3	,	,	PUNCT	Z	_	_	_	_	_
 4	netopen	netopen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 5	kompleks	kompleks	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -2207,7 +2207,7 @@
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	prvič	prvič	ADV	Rgp	Degree=Pos	_	_	_	_
 5	obiskal	obiskati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
-6	Pariz	Pariz	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+6	Pariz	Pariz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 7	,	,	PUNCT	Z	_	_	_	_	_
 8	kjer	kjer	SCONJ	Cs	_	_	_	_	_
 9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -2234,12 +2234,12 @@
 6	zaveznik	zaveznik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 7	cesarja	cesar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 8	Maksimilijana	Maksimilijan	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-9	I.	I.	NUM	Mro	NumForm=Roman|NumType=Ord	_	_	_	_
+9	I.	i.	X	Y	Abbr=Yes	_	_	_	_
 10	in	in	CCONJ	Cc	_	_	_	_	_
 11	podpiral	podpirati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 12	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
-13	njegove	njegov	DET	Ps3fsgsm	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	_	_	_	_
-14	kampanje	kampanja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	_	_	_	_
+13	njegove	njegov	DET	Ps3fsgsm	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	_	_	_	_
+14	kampanje	kampanja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 15	v	v	ADP	Sl	Case=Loc	_	_	_	_
 16	Švabiji	Švabija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 17	,	,	PUNCT	Z	_	_	_	_	_
@@ -2315,7 +2315,7 @@
 9	,	,	PUNCT	Z	_	_	_	_	_
 10	Lleida	Lleida	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 11	in	in	CCONJ	Cc	_	_	_	_	_
-12	Tarragona	Tarragona	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+12	Tarragona	Tarragona	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 13	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1939
@@ -2332,9 +2332,9 @@
 9	po	po	ADP	Sl	Case=Loc	_	_	_	_
 10	naročilu	naročilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
 11	vojvode	vojvoda	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
-12	Cosima	Cosima	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+12	Cosima	Cosimo	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 13	I.	i.	X	Y	Abbr=Yes	_	_	_	_
-14	Medičejskega	Medičejsko	PROPN	Npnsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+14	Medičejskega	Medičejski	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 15	,	,	PUNCT	Z	_	_	_	_	_
 16	po	po	ADP	Sl	Case=Loc	_	_	_	_
 17	zasnovi	zasnova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
@@ -2442,7 +2442,7 @@
 16	pred	pred	ADP	Si	Case=Ins	_	_	_	_
 17	okužbo	okužba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
 18	z	z	ADP	Si	Case=Ins	_	_	_	_
-19	bakteriofagi	bakteriofaga	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
+19	bakteriofagi	bakteriofa	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	_	_	_	_
 20	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1945
@@ -2532,7 +2532,7 @@
 # text = Kralj Alfonz VI. je prispeval veliko donacijo za novo cerkev.
 1	Kralj	kralj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 2	Alfonz	Alfonz	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-3	VI.	VI.	X	Y	Abbr=Yes	_	_	_	_
+3	VI.	vi.	X	Y	Abbr=Yes	_	_	_	_
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	prispeval	prispevati	VERB	Vmbp-sm	Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 6	veliko	velik	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
@@ -2558,7 +2558,7 @@
 11	1805	1805	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 12	pridobil	pridobiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 13	Mohamed	Mohamed	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-14	Ali	ali	CCONJ	Cc	_	_	_	_	_
+14	Ali	Ali	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 15	Paša	Paša	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 16	,	,	PUNCT	Z	_	_	_	_	_
 17	albanski	albanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
@@ -2577,8 +2577,8 @@
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 4	preselili	preseliti	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
-5	v	v	ADP	Sl	Case=Loc	_	_	_	_
-6	severni	severen	ADJ	Agpmsay	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+5	v	v	ADP	Sa	Case=Acc	_	_	_	_
+6	severni	severen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 7	Oakland	Oakland	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 8	,	,	PUNCT	Z	_	_	_	_	_
 9	čeprav	čeprav	SCONJ	Cs	_	_	_	_	_
@@ -2602,8 +2602,8 @@
 5	zdaj	zdaj	ADV	Rgp	Degree=Pos	_	_	_	_
 6	skupaj	skupaj	ADV	Rgp	Degree=Pos	_	_	_	_
 7	predstavljata	predstavljati	VERB	Vmpr3d	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
-8	Codex	Codex	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
-9	Eyckensis	Eyckensis	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+8	Codex	Codex	PROPN	Npmsn	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+9	Eyckensis	Eyckensis	PROPN	Npmsan	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 10	,	,	PUNCT	Z	_	_	_	_	_
 11	naj	naj	PART	Q	_	_	_	_	_
 12	bi	biti	AUX	Va-c	Mood=Cnd|VerbForm=Fin	_	_	_	_
@@ -2625,7 +2625,7 @@
 1	Posameznikova	posameznikov	ADJ	Aspfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	_	_	_	_
 2	svoboda	svoboda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 3	izražanja	izražanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
-4	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	zatorej	zatorej	ADV	Rgp	Degree=Pos	_	_	_	_
 6	ključnega	ključen	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 7	pomena	pomen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
@@ -2654,11 +2654,11 @@
 15	,	,	PUNCT	Z	_	_	_	_	_
 16	da	da	SCONJ	Cs	_	_	_	_	_
 17	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
-18	pomembno	pomembno	ADV	Rgp	Degree=Pos	_	_	_	_
+18	pomembno	pomemben	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 19	vplival	vplivati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 20	na	na	ADP	Sa	Case=Acc	_	_	_	_
 21	pop	pop	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-22	art	art	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+22	art	art	NOUN	Ncmsan	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 23	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1956
@@ -2680,7 +2680,7 @@
 2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	začasno	začasen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 4	oznako	oznaka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
-5	S	s	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+5	S	z	ADP	Si	Case=Ins	_	_	_	_
 6	/	/	PUNCT	Z	_	_	_	_	_
 7	2004	2004	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 8	S	z	ADP	Si	Case=Ins	_	_	_	_
@@ -2717,7 +2717,7 @@
 2	so	biti	AUX	Va-r3p-n	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 3	postali	postati	VERB	Vmep-pm	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part	_	_	_	_
 4	uradno	uraden	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
-5	ameriško	ameriški	ADJ	Agpnsn	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+5	ameriško	ameriški	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 6	ozemlje	ozemlje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
 7	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -2803,9 +2803,9 @@
 4	odrežejo	odrezati	VERB	Vmer3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	glavo	glava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
 6	,	,	PUNCT	Z	_	_	_	_	_
-7	zrasteta	zrasti	VERB	Vmer3d	Aspect=Perf|Mood=Ind|Number=Dual|Person=3|VerbForm=Fin	_	_	_	_
-8	dve	dva	NUM	Mlcfda	Case=Acc|Gender=Fem|Number=Dual|NumForm=Word|NumType=Card	_	_	_	_
-9	novi	nov	ADJ	Agpnda	Case=Acc|Degree=Pos|Gender=Fem|Number=Dual	_	_	_	_
+7	zrasteta	zrasti	VERB	Vmer3d	Aspect=Perf|Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+8	dve	dva	NUM	Mlcfdn	Case=Nom|Gender=Fem|Number=Dual|NumForm=Word|NumType=Card	_	_	_	_
+9	novi	nov	ADJ	Agpfdn	Case=Nom|Degree=Pos|Gender=Fem|Number=Dual	_	_	_	_
 10	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1965
@@ -2816,7 +2816,7 @@
 3	motenj	motnja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 4	,	,	PUNCT	Z	_	_	_	_	_
 5	ki	ki	SCONJ	Cs	_	_	_	_	_
-6	jih	on	PRON	Pp3mpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	_	_	_	_
+6	jih	on	PRON	Pp3fpa--y	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Variant=Short	_	_	_	_
 7	takšen	takšen	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	_	_	_	_
 8	pojav	pojav	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 9	povzroči	povzročiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -2839,7 +2839,7 @@
 # newpar id = elexiswsd1.1966
 # sent_id = elexiswsd1.1966.sl.132792
 # text = CIL trenutno obsega 17 knjig v približno 70 delih, v katerih je približno 180.000 napisov.
-1	CIL	cil	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+1	CIL	CIL	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 2	trenutno	trenutno	ADV	Rgp	Degree=Pos	_	_	_	_
 3	obsega	obsegati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	17	17	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
@@ -2850,7 +2850,7 @@
 9	delih	del	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	_	_	_	_
 10	,	,	PUNCT	Z	_	_	_	_	_
 11	v	v	ADP	Sl	Case=Loc	_	_	_	_
-12	katerih	kateri	DET	Pq-fpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Int	_	_	_	_
+12	katerih	kateri	DET	Pq-fpl	Case=Loc|Gender=Fem|Number=Plur|PronType=Int	_	_	_	_
 13	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 14	približno	približno	ADV	Rgp	Degree=Pos	_	_	_	_
 15	180.000	180.000	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
@@ -2895,8 +2895,8 @@
 3	,	,	PUNCT	Z	_	_	_	_	_
 4	da	da	SCONJ	Cs	_	_	_	_	_
 5	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
-6	obe	oba	DET	Pg-ndn	Case=Acc|Gender=Neut|Number=Dual|PronType=Tot	_	_	_	_
-7	deli	delo	NOUN	Ncnda	Case=Acc|Gender=Neut|Number=Dual	_	_	_	_
+6	obe	oba	DET	Pg-ndn	Case=Nom|Gender=Neut|Number=Dual|PronType=Tot	_	_	_	_
+7	deli	delo	NOUN	Ncnda	Case=Nom|Gender=Neut|Number=Dual	_	_	_	_
 8	zmodeliral	zmodelirati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 9	isti	isti	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	_	_	_	_
 10	kipar	kipar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -2979,7 +2979,7 @@
 # sent_id = elexiswsd1.1974.sl.132800
 # text = Gustav VI. Adolf je sodeloval pri arheoloških odpravah na Kitajskem, v Grčiji, Koreji in Italiji ter ustanovil švedski inštitut v Rimu.
 1	Gustav	Gustav	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
-2	VI.	VI.	X	Y	Abbr=Yes	_	_	_	_
+2	VI.	vi.	X	Y	Abbr=Yes	_	_	_	_
 3	Adolf	Adolf	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	sodeloval	sodelovati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
@@ -3384,7 +3384,7 @@
 19	o	o	ADP	Sl	Case=Loc	_	_	_	_
 20	pridružitvi	pridružitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 21	evrskemu	evrski	ADJ	Agpnsd	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
-22	območju	območje	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	_	_	_	_
+22	območju	območje	NOUN	Ncnsl	Case=Dat|Gender=Neut|Number=Sing	_	_	_	_
 23	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = elexiswsd1.1994
@@ -3456,7 +3456,7 @@
 2	tega	ta	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	_	_	_	_
 3	ima	imeti	VERB	Vmpr3s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	še	še	PART	Q	_	_	_	_	_
-5	majhno	majhen	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+5	majhno	majhen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
 6	letališče	letališče	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
 7	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -3493,7 +3493,7 @@
 # newpar id = elexiswsd1.2000
 # sent_id = elexiswsd1.2000.sl.132826
 # text = Tokonoma in njegova vsebina so bistveni elementi tradicionalnega japonskega notranjega dizajna.
-1	Tokonoma	tokon	NOUN	Ncmdd	Case=Dat|Gender=Masc|Number=Dual	_	_	_	_
+1	Tokonoma	Tokonoma	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 2	in	in	CCONJ	Cc	_	_	_	_	_
 3	njegova	njegov	DET	Ps3fsnsm	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	_	_	_	_
 4	vsebina	vsebina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
@@ -3555,7 +3555,7 @@
 2	preteklosti	preteklost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
-5	AH-1	AH-1	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+5	AH-1	AH-1	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 6	steber	steber	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 7	flote	flota	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 8	jurišnih	jurišen	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	_	_	_	_
@@ -3567,7 +3567,7 @@
 14	ga	on	PRON	Pp3msg--y	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	_	_	_	_
 15	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
 16	nadomestil	nadomestiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
-17	AH-64	AH-64	X	X	_	_	_	_	_
+17	AH-64	AH-64	NUM	Mdc	NumForm=Digit|NumType=Card	_	_	_	_
 18	Apache	Apache	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 19	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -3619,7 +3619,7 @@
 10	astronomov	astronom	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
 11	,	,	PUNCT	Z	_	_	_	_	_
 12	tudi	tudi	PART	Q	_	_	_	_	_
-13	Eratostena	Eratostena	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+13	Eratostena	Eratostena	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
 14	,	,	PUNCT	Z	_	_	_	_	_
 15	da	da	SCONJ	Cs	_	_	_	_	_
 16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -3651,7 +3651,7 @@
 6	ur	ura	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
 7	ali	ali	CCONJ	Cc	_	_	_	_	_
 8	pa	pa	CCONJ	Cc	_	_	_	_	_
-9	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+9	stoletja	stoletje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Plur	_	_	_	_
 10	dolgo	dolgo	ADV	Rgp	Degree=Pos	_	_	_	_
 11	.	.	PUNCT	Z	_	_	_	_	_
 
@@ -3669,7 +3669,7 @@
 9	pa	pa	CCONJ	Cc	_	_	_	_	_
 10	ne	ne	PART	Q	Polarity=Neg	_	_	_	_
 11	sme	smeti	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
-12	preveč	preveliko	DET	Rgp	PronType=Ind	_	_	_	_
+12	preveč	preveč	DET	Rgp	PronType=Ind	_	_	_	_
 13	zlahka	zlahka	ADV	Rgp	Degree=Pos	_	_	_	_
 14	zaupati	zaupati	VERB	Vmbn	VerbForm=Inf	_	_	_	_
 15	njeni	njen	DET	Ps3fsdsf	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	_	_	_	_

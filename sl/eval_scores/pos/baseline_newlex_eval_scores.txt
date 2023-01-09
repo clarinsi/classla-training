@@ -4,86 +4,86 @@ tagger:
 
 SUK_ambiga_ud_test.conllu --use_lexicon foo:
 
-2022-12-27 10:45:12 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:45:12 INFO: 98.14 93.07   93.64   92.74
+2023-01-05 10:43:20 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:43:20 INFO: 98.25 93.36   94.03   93.13
 Tagger score:
-sl_ssj 92.74
+sl_ssj 93.13
 
 SUK_ambiga_ud_test.conllu:
 
-2022-12-27 10:47:42 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:47:42 INFO: 97.97 92.51   94.54   91.72
+2023-01-05 10:44:23 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:44:23 INFO: 98.09 92.68   94.88   92.06
 Tagger score:
-sl_ssj 91.72
+sl_ssj 92.06
 
 SUK_elexiswsd_ud_test.conllu --use_lexicon foo:
 
-2022-12-27 10:50:03 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:50:03 INFO: 98.48 97.22   97.47   97.00
+2023-01-05 10:46:54 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:46:54 INFO: 98.67 97.28   97.50   97.16
 Tagger score:
-sl_ssj 97.00
+sl_ssj 97.16
 
 SUK_elexiswsd_ud_test.conllu:
 
-2022-12-27 10:51:53 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:51:53 INFO: 98.39 97.19   97.22   96.71
-Tagger score:
-sl_ssj 96.71
-
-SUK_senticoref_ud_test.conllu --use_lexicon foo:
-
-2022-12-27 10:53:59 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:53:59 INFO: 98.97 98.00   98.33   97.64
-Tagger score:
-sl_ssj 97.64
-
-SUK_senticoref_ud_test.conllu:
-
-2022-12-27 10:55:27 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:55:27 INFO: 99.00 98.07   98.17   97.41
-Tagger score:
-sl_ssj 97.41
-
-SUK_ssj500k-syn_ud_test.conllu --use_lexicon foo:
-
-2022-12-27 10:56:59 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 10:56:59 INFO: 98.55 96.96   97.15   96.51
-Tagger score:
-sl_ssj 96.51
-
-SUK_ssj500k-syn_ud_test.conllu:
-
-2022-12-27 11:01:03 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 11:01:03 INFO: 98.46 96.77   96.86   96.03
-Tagger score:
-sl_ssj 96.03
-
-SUK_ssj500k-tag_ud_test.conllu --use_lexicon foo:
-
-2022-12-27 11:02:51 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 11:02:51 INFO: 98.77 97.12   97.34   96.90
+2023-01-05 10:48:22 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:48:22 INFO: 98.58 97.31   97.38   96.90
 Tagger score:
 sl_ssj 96.90
 
+SUK_senticoref_ud_test.conllu --use_lexicon foo:
+
+2023-01-05 10:50:00 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:50:00 INFO: 99.04 98.01   98.29   97.66
+Tagger score:
+sl_ssj 97.66
+
+SUK_senticoref_ud_test.conllu:
+
+2023-01-05 10:50:57 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:50:57 INFO: 99.05 98.09   98.20   97.50
+Tagger score:
+sl_ssj 97.50
+
+SUK_ssj500k-syn_ud_test.conllu --use_lexicon foo:
+
+2023-01-05 10:52:52 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:52:52 INFO: 98.59 97.03   97.20   96.57
+Tagger score:
+sl_ssj 96.57
+
+SUK_ssj500k-syn_ud_test.conllu:
+
+2023-01-05 10:53:49 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:53:49 INFO: 98.49 96.84   96.86   96.05
+Tagger score:
+sl_ssj 96.05
+
+SUK_ssj500k-tag_ud_test.conllu --use_lexicon foo:
+
+2023-01-05 10:55:42 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:55:42 INFO: 98.79 97.11   97.35   96.93
+Tagger score:
+sl_ssj 96.93
+
 SUK_ssj500k-tag_ud_test.conllu:
 
-2022-12-27 11:04:15 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 11:04:15 INFO: 98.78 97.02   97.05   96.46
+2023-01-05 10:56:49 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:56:49 INFO: 98.81 97.06   97.05   96.54
 Tagger score:
-sl_ssj 96.46
+sl_ssj 96.54
 
 ...........................................................
 
 SUK_ud_test.conllu --use_lexicon foo:
 
-2022-12-27 11:07:14 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 11:07:14 INFO: 98.78 97.36   97.63   97.03
+2023-01-05 10:58:25 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:58:25 INFO: 98.83 97.39   97.64   97.08
 Tagger score:
-sl_ssj 97.03
+sl_ssj 97.08
 
 SUK_ud_test.conllu:
 
-2022-12-27 11:11:53 INFO: UPOS  XPOS    UFeats  AllTags
-2022-12-27 11:11:53 INFO: 98.77 97.31   97.41   96.66
+2023-01-05 10:59:31 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-05 10:59:31 INFO: 98.81 97.35   97.43   96.74
 Tagger score:
-sl_ssj 96.66
+sl_ssj 96.74

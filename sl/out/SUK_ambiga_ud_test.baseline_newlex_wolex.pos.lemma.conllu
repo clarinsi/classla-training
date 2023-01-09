@@ -144,7 +144,7 @@
 4	skozi	skozi	ADP	Sa	Case=Acc	_	_	_	_
 5	Tivoli	Tivoli	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 6	,	,	PUNCT	Z	_	_	_	_	_
-7	ko	kot	SCONJ	Cs	_	_	_	_	_
+7	ko	ko	SCONJ	Cs	_	_	_	_	_
 8	zagleda	zagledati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 9	mladega	mlad	ADJ	Agpmsa	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
 10	fanta	fant	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
@@ -278,7 +278,7 @@
 21	dveh	dva	NUM	Mlcmdg	Case=Gen|Gender=Masc|Number=Dual|NumForm=Word|NumType=Card	_	_	_	_
 22	sinov	sin	NOUN	Ncmdg	Case=Gen|Gender=Masc|Number=Dual	_	_	_	_
 23	,	,	PUNCT	Z	_	_	_	_	_
-24	ko	kot	SCONJ	Cs	_	_	_	_	_
+24	ko	ko	SCONJ	Cs	_	_	_	_	_
 25	pa	pa	CCONJ	Cc	_	_	_	_	_
 26	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 27	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
@@ -436,7 +436,7 @@
 # sent_id = GF0073015.665.1
 # text = Potem ko je slovenska vlada trikrat obravnavala sporni »oglejski sporazum« in ga v četrtek tako rekoč enoglasno zavrnila, je dan kasneje na izrednih sejah državnega zbora, na katerih se je opozicija vzdržala glasovanja, prišlo do odkritega razkola med krščanskimi demokrati in drugima dvema članicama vladajoče koalicije.
 1	Potem	potem	ADV	Rgp	Degree=Pos	_	_	_	_
-2	ko	kot	SCONJ	Cs	_	_	_	_	_
+2	ko	ko	SCONJ	Cs	_	_	_	_	_
 3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 4	slovenska	slovenski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
 5	vlada	vlada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
@@ -731,7 +731,7 @@
 3	v	v	ADP	Sl	Case=Loc	_	_	_	_
 4	hrani	hrana	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 5	,	,	PUNCT	Z	_	_	_	_	_
-6	ko	kot	SCONJ	Cs	_	_	_	_	_
+6	ko	ko	SCONJ	Cs	_	_	_	_	_
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 8	ožigalkarje	ožigalkar	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
 9	.	.	PUNCT	Z	_	_	_	_	_
@@ -821,7 +821,7 @@
 7	,	,	PUNCT	Z	_	_	_	_	_
 8	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 9	ne	ne	PART	Q	Polarity=Neg	_	_	_	_
-10	da	da	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+10	da	dati	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
 11	kar	kar	ADV	Rgp	Degree=Pos	_	_	_	_
 12	preprosto	preprosto	ADV	Rgp	Degree=Pos	_	_	_	_
 13	zapreti	zapreti	VERB	Vmen	Aspect=Perf|VerbForm=Inf	_	_	_	_
@@ -950,7 +950,7 @@
 24	razbeljeno	razbeljen	ADJ	Appnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part	_	_	_	_
 25	železo	železo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
 26	,	,	PUNCT	Z	_	_	_	_	_
-27	ko	kot	SCONJ	Cs	_	_	_	_	_
+27	ko	ko	SCONJ	Cs	_	_	_	_	_
 28	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 29	Giovanni	Giovanni	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
 30	položil	položiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
@@ -1007,7 +1007,7 @@
 8	od	od	ADP	Sg	Case=Gen	_	_	_	_
 9	marca	marec	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 10	,	,	PUNCT	Z	_	_	_	_	_
-11	ko	kot	SCONJ	Cs	_	_	_	_	_
+11	ko	ko	SCONJ	Cs	_	_	_	_	_
 12	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 13	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 14	to	ta	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	_	_	_	_
@@ -1622,7 +1622,7 @@
 3	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 4	,	,	PUNCT	Z	_	_	_	_	_
 5	medtem	medtem	ADV	Rgp	Degree=Pos	_	_	_	_
-6	ko	kot	SCONJ	Cs	_	_	_	_	_
+6	ko	ko	SCONJ	Cs	_	_	_	_	_
 7	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 8	nalival	nalivati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	_	_	_	_
 9	gradaško	gradaški	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
@@ -1671,7 +1671,7 @@
 52	pri	pri	ADP	Sl	Case=Loc	_	_	_	_
 53	maši	maša	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
 54	,	,	PUNCT	Z	_	_	_	_	_
-55	ko	kot	SCONJ	Cs	_	_	_	_	_
+55	ko	ko	SCONJ	Cs	_	_	_	_	_
 56	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	_	_	_	_
 57	bo	biti	AUX	Va-f3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	_	_	_	_
 58	v	v	ADP	Sl	Case=Loc	_	_	_	_
@@ -1693,7 +1693,7 @@
 74	starkine	starkin	ADJ	Aspfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	_	_	_	_
 75	sobe	soba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
 76	,	,	PUNCT	Z	_	_	_	_	_
-77	ko	kot	SCONJ	Cs	_	_	_	_	_
+77	ko	ko	SCONJ	Cs	_	_	_	_	_
 78	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
 79	niti	niti	PART	Q	_	_	_	_	_
 80	četrt	četrt	DET	Rgp	PronType=Ind	_	_	_	_
@@ -1725,7 +1725,7 @@
 6	prek	prek	ADP	Sg	Case=Gen	_	_	_	_
 7	naravnih	naraven	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	_	_	_	_
 8	prehodov	prehod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
-9	vse	ves	ADV	Rgp	Degree=Pos	_	_	_	_
+9	vse	vse	ADV	Rgp	Degree=Pos	_	_	_	_
 10	do	do	ADP	Sg	Case=Gen	_	_	_	_
 11	vrha	vrh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
 12	stene	stena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
@@ -2432,7 +2432,7 @@
 # text = Zdaj, ko imam majhna otroka, izbiramo destinacije, ki so zanimive tako za naju z ženo kot tudi za najina dva nadobudneža.
 1	Zdaj	zdaj	ADV	Rgp	Degree=Pos	_	_	_	_
 2	,	,	PUNCT	Z	_	_	_	_	_
-3	ko	kot	SCONJ	Cs	_	_	_	_	_
+3	ko	ko	SCONJ	Cs	_	_	_	_	_
 4	imam	imeti	VERB	Vmpr1s-n	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 5	majhna	majhen	ADJ	Agpmda	Case=Acc|Degree=Pos|Gender=Masc|Number=Dual	_	_	_	_
 6	otroka	otrok	NOUN	Ncmda	Case=Acc|Gender=Masc|Number=Dual	_	_	_	_
@@ -2502,7 +2502,7 @@
 31	da	da	SCONJ	Cs	_	_	_	_	_
 32	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	_	_	_	_
 33	grožnja	grožnja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
-34	Luli	Lula	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	_	_	_	_
+34	Luli	Luli	PROPN	Npfsd	Case=Dat|Gender=Fem|Number=Sing	_	_	_	_
 35	z	z	ADP	Si	Case=Ins	_	_	_	_
 36	zaporom	zapor	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
 37	napad	napad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
@@ -2537,7 +2537,7 @@
 12	sočloveka	sočlovek	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
 13	,	,	PUNCT	Z	_	_	_	_	_
 14	potem	potem	ADV	Rgp	Degree=Pos	_	_	_	_
-15	ko	kot	SCONJ	Cs	_	_	_	_	_
+15	ko	ko	SCONJ	Cs	_	_	_	_	_
 16	ni	biti	AUX	Va-r3s-y	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	_	_	_	_
 17	več	več	PART	Q	_	_	_	_	_
 18	le	le	PART	Q	_	_	_	_	_
