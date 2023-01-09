@@ -1,5 +1,7 @@
 # Detailed description of the training process
 
+## Tagger
+
 The tagger was first trained on the old version of the lexicon (Sloleks 2.0):
 
 `python -m classla.models.tagger --save_dir models\pos\ --save_name baseline --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu\SUK_ud_train.conllu --eval_file conllu\SUK_ud_dev.conllu --gold_file conllu\SUK_ud_dev.conllu --mode train --shorthand sl_ssj --output_file out-temp\SUK_ud_dev_baseline_pos.conllu --inflectional_lexicon_path sloleks_clarin_2.0-en.ud.tbl`
@@ -40,6 +42,8 @@ python -m classla.models.tagger --save_dir models\pos\ --save_name baseline_3amb
 python -m classla.models.tagger --save_dir models\pos\ --save_name baseline_3ambiga --eval_file conllu\SUK_ssj500k-tag_ud_test_empty.conllu --output_file out\SUK_ssj500k-tag_ud_test.baseline_3ambiga_wolex.pos.conllu --gold_file conllu\SUK_ssj500k-tag_ud_test.conllu --shorthand sl_ssj --mode predict
 python -m classla.models.tagger --save_dir models\pos\ --save_name baseline_3ambiga --eval_file conllu\SUK_ud_test_empty.conllu --output_file out\SUK_ud_test.baseline_3ambiga.pos.conllu --gold_file conllu\SUK_ud_test.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
 python -m classla.models.tagger --save_dir models\pos\ --save_name baseline_3ambiga --eval_file conllu\SUK_ud_test_empty.conllu --output_file out\SUK_ud_test.baseline_3ambiga_wolex.pos.conllu --gold_file conllu\SUK_ud_test.conllu --shorthand sl_ssj --mode predict`
+
+## Lemmatizer
 
 The new lexicon produced much better results, while 3ambiga produced better results mostly only for the Ambiga subcorpus. It was decided that, moving forward, only the baseline_newlex and baseline_3ambiga models (and not the old lexicon baseline model) would be used on the next levels for training. The lemmatizer training thus consisted of two commands:
 
@@ -85,6 +89,8 @@ python -m classla.models.lemmatizer --model_dir models\lemma\ --model_file basel
 python -m classla.models.lemmatizer --model_dir models\lemma\ --model_file baseline_3ambiga --eval_file out\SUK_ud_test.baseline_3ambiga.pos.conllu --output_file out\SUK_ud_test.baseline_3ambiga.pos.lemma.conllu --gold_file conllu\SUK_ud_test.conllu --pos_model_path models\pos\baseline_3ambiga --mode predict
 python -m classla.models.lemmatizer --model_dir models\lemma\ --model_file baseline_3ambiga --eval_file out\SUK_ud_test.baseline_3ambiga_wolex.pos.conllu --output_file out\SUK_ud_test.baseline_3ambiga_wolex.pos.lemma.conllu --gold_file conllu\SUK_ud_test.conllu --pos_model_path models\pos\baseline_3ambiga --mode predict
 python -m classla.models.lemmatizer --model_dir models\lemma\ --model_file baseline_3ambiga --eval_file out\SUK_ud_test.baseline_3ambiga.pos.conllu --output_file out\SUK_ud_test.baseline_3ambiga_nopos.pos.lemma.conllu --gold_file conllu\SUK_ud_test.conllu --mode predict`
+
+## Parser
 
 After the lemmatizer evaluation, we moved on to the parser training. The training was run twice (for UD and JOS syntax). Only the ssj500k-syn and elexiswsd corpora were used in this step, since they are the only subsets which contain depparse annotations:
 
