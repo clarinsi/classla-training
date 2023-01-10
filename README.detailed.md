@@ -107,3 +107,18 @@ python -m classla.models.parser --save_dir models\depparse\ --save_name baseline
 python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex.pos.lemma.depparse.conllu --mode predict
 python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex_wolex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex_wolex.pos.lemma.depparse.conllu --mode predict
 python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict`
+
+## Results
+
+Evaluation results for each task:
+
+### Morphosyntactic tagging
+
+| model | lexicon | UPOS | XPOS | UFeats | AllTags |
+| --- | --- | --- | --- | --- | --- |
+| baseline | Sloleks 2.0 | 98.84 | 97.41 | 97.13 | 96.61 |
+| baseline | no lexicon | 98.79 | 97.29 | 97.39 | 96.64 |
+| baseline_newlex | Sloleks 3.0 | 98.83 | 97.39 | 97.64 | 97.08 |
+| baseline_newlex | no lexicon | 98.81 | 97.35 | 97.43 | 96.74 |
+| 3ambiga | Sloleks 3.0 | 98.80 | 97.35 | 97.63 | 97.04 |
+| 3ambiga | no lexicon | 98.78 | 97.27 | 97.39 | 96.64 |
