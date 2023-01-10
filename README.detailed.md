@@ -136,8 +136,8 @@ Evaluation results for each task:
 
 ### Syntactic parsing
 
-| model | lexicon used during eval | morphosyntax and lemmas | LAS |
-| --- | --- | --- | --- |
-| baseline_newlex | Sloleks 3.0 | predicted with lexicon | 90.38 |
-| baseline_newlex | Sloleks 3.0 | predicted without lexicon | 90.39 |
-| baseline_newlex | no lexicon | predicted with lexicon | 90.37 |
+| model | syntax type | lexicon used during eval | morphosyntax and lemmas | LAS |
+| --- | --- | --- | --- | --- |
+| baseline_newlex | UD | Sloleks 3.0 | predicted with lexicon | 90.38 |
+| baseline_newlex | UD | Sloleks 3.0 | predicted without lexicon | 90.39 |
+| baseline_newlex | UD | no lexicon | predicted with lexicon | 90.37 |
