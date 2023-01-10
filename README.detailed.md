@@ -114,7 +114,7 @@ Evaluation results for each task:
 
 ### Morphosyntactic tagging
 
-| model | lexicon | UPOS | XPOS | UFeats | AllTags |
+| model | lexicon used during eval | UPOS | XPOS | UFeats | AllTags |
 | --- | --- | --- | --- | --- | --- |
 | baseline | Sloleks 2.0 | 98.84 | 97.41 | 97.13 | 96.61 |
 | baseline | no lexicon | 98.79 | 97.29 | 97.39 | 96.64 |
@@ -122,3 +122,22 @@ Evaluation results for each task:
 | baseline_newlex | no lexicon | 98.81 | 97.35 | 97.43 | 96.74 |
 | 3ambiga | Sloleks 3.0 | 98.80 | 97.35 | 97.63 | 97.04 |
 | 3ambiga | no lexicon | 98.78 | 97.27 | 97.39 | 96.64 |
+
+### Lemmatization
+
+| model | lexicon used during eval | morphosyntax | F1 |
+| --- | --- | --- | --- |
+| baseline_newlex | Sloleks 3.0 | predicted with lexicon | 98.97 |
+| baseline_newlex | Sloleks 3.0 | predicted without lexicon | 98.94 |
+| baseline_newlex | no lexicon | predicted with lexicon | 98.97 |
+| 3ambiga | Sloleks 3.0 | predicted with lexicon | 98.98 |
+| 3ambiga | Sloleks 3.0 | predicted without lexicon | 98.96 |
+| 3ambiga | no lexicon | predicted with lexicon | 99.12 |
+
+### Syntactic parsing
+
+| model | lexicon used during eval | morphosyntax and lemmas | LAS |
+| --- | --- | --- | --- |
+| baseline_newlex | Sloleks 3.0 | predicted with lexicon | 90.38 |
+| baseline_newlex | Sloleks 3.0 | predicted without lexicon | 90.39 |
+| baseline_newlex | no lexicon | predicted with lexicon | 90.37 |
