@@ -94,7 +94,8 @@ python -m classla.models.lemmatizer --model_dir models\lemma\ --model_file basel
 
 After the lemmatizer evaluation, we moved on to the parser training. The training was run twice (for UD and JOS syntax). Only the ssj500k-syn and elexiswsd corpora were used in this step, since they are the only subsets which contain depparse annotations:
 
-`python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu\SUK_ud_train_syn.conllu --eval_file out\SUK_ud_dev.baseline_newlex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_dev_syn.conllu --shorthand sl_ssj --output_file out-temp\SUK_ud_dev_baseline_newlex_udsyn.conllu --mode train`
+`python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu\SUK_ud_train_syn.conllu --eval_file out\SUK_ud_dev.baseline_newlex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_dev_syn.conllu --shorthand sl_ssj --output_file out-temp\SUK_ud_dev_baseline_newlex_udsyn.conllu --mode train
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu\SUK_jos_train_syn.conllu --eval_file out\SUK_ud_dev.baseline_newlex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_jos_dev_syn.conllu --shorthand sl_ssj --output_file out-temp\SUK_jos_dev_baseline_newlex_jossyn.conllu --mode train`
 
 The parser evaluation was carried out using the following commands (both the "nopos" and "wolex" lemmatized files were used as input evaluation files):
 
