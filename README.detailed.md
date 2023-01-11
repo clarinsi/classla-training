@@ -107,7 +107,22 @@ python -m classla.models.parser --save_dir models\depparse\ --save_name baseline
 python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ssj500k-syn_ud_test.baseline_newlex_nopos.pos.lemma.conllu --gold_file conllu\SUK_ssj500k-syn_ud_test.conllu --shorthand sl_ssj --output_file out\SUK_ssj500k-syn_ud_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict
 python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex.pos.lemma.depparse.conllu --mode predict
 python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex_wolex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex_wolex.pos.lemma.depparse.conllu --mode predict
-python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict`
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_udsyn --eval_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma_forsyn.conllu --gold_file conllu\SUK_ud_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict
+
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_elexiswsd_ud_test.baseline_newlex.pos.lemma.conllu --gold_file conllu\SUK_elexiswsd_jos_test.conllu --shorthand sl_ssj --output_file out\SUK_elexiswsd_jos_test.baseline_newlex.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_elexiswsd_ud_test.baseline_newlex_wolex.pos.lemma.conllu --gold_file conllu\SUK_elexiswsd_jos_test.conllu --shorthand sl_ssj --output_file out\SUK_elexiswsd_jos_test.baseline_newlex_wolex.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_elexiswsd_ud_test.baseline_newlex_nopos.pos.lemma.conllu --gold_file conllu\SUK_elexiswsd_jos_test.conllu --shorthand sl_ssj --output_file out\SUK_elexiswsd_jos_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_ssj500k-syn_ud_test.baseline_newlex.pos.lemma.conllu --gold_file conllu\SUK_ssj500k-syn_jos_test.conllu --shorthand sl_ssj --output_file out\SUK_ssj500k-syn_jos_test.baseline_newlex.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_ssj500k-syn_ud_test.baseline_newlex_wolex.pos.lemma.conllu --gold_file conllu\SUK_ssj500k-syn_jos_test.conllu --shorthand sl_ssj --output_file out\SUK_ssj500k-syn_jos_test.baseline_newlex_wolex.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_ssj500k-syn_ud_test.baseline_newlex_nopos.pos.lemma.conllu --gold_file conllu\SUK_ssj500k-syn_jos_test.conllu --shorthand sl_ssj --output_file out\SUK_ssj500k-syn_jos_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_ud_test.baseline_newlex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_jos_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_jos_test.baseline_newlex.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_ud_test.baseline_newlex_wolex.pos.lemma_forsyn.conllu --gold_file conllu\SUK_jos_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_jos_test.baseline_newlex_wolex.pos.lemma.depparse.conllu --mode predict
+python -m classla.models.parser --save_dir models\depparse\ --save_name baseline_newlex_jossyn --eval_file out\SUK_ud_test.baseline_newlex_nopos.pos.lemma_forsyn.conllu --gold_file conllu\SUK_jos_test_syn.conllu --shorthand sl_ssj --output_file out\SUK_jos_test.baseline_newlex_nopos.pos.lemma.depparse.conllu --mode predict`
+
+## SRL
+The SRL tagger was also trained on the ssj500k-syn and elexiswsd portions of SUK, since only those subset contain SRL tags:
+
+``
 
 ## Results
 
@@ -142,3 +157,6 @@ Evaluation results for each task:
 | baseline_newlex | UD | Sloleks 3.0 | predicted with lexicon | 90.38 |
 | baseline_newlex | UD | Sloleks 3.0 | predicted without lexicon | 90.39 |
 | baseline_newlex | UD | no lexicon | predicted with lexicon | 90.37 |
+| baseline_newlex | JOS | Sloleks 3.0 | predicted with lexicon | 73.79 |
+| baseline_newlex | JOS | Sloleks 3.0 | predicted without lexicon | 73.76 |
+| baseline_newlex | JOS | no lexicon | predicted with lexicon | 73.79 |
