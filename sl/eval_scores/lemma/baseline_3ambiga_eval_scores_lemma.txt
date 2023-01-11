@@ -17,6 +17,11 @@ ambiga no POS model:
 Lemma score:
 None 98.42
 
+ambiga wolex no POS:
+
+Lemma score:
+None 97.97
+
 elexiswsd:
 
 Lemma score:
@@ -31,6 +36,11 @@ elexiswsd no POS model:
 
 Lemma score:
 None 98.67
+
+elexiswsd wolex no POS:
+
+Lemma score:
+None 98.52
 
 senticoref:
 
@@ -47,6 +57,11 @@ senticoref no POS model:
 Lemma score:
 None 99.35
 
+senticoref wolex no POS:
+
+Lemma score:
+None 99.30
+
 ssj500k-syn:
 
 Lemma score:
@@ -62,6 +77,11 @@ ssj500k-syn no POS model:
 Lemma score:
 None 98.96
 
+ssj500k-syn wolex no POS:
+
+Lemma score:
+None 98.85
+
 ssj500k-tag:
 
 Lemma score:
@@ -76,6 +96,11 @@ ssj500k-tag no POS model:
 
 Lemma score:
 None 99.04
+
+ssj500k-tag wolex no POS:
+
+Lemma score:
+None 98.92
 
 ...........................................................
 
@@ -93,3 +118,8 @@ SUK no POS model:
 
 Lemma score:
 None 99.12
+
+SUK wolex no POS:
+
+Lemma score:
+None 99.02

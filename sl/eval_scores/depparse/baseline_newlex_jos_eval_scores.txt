@@ -24,6 +24,13 @@ elexiswsd no POS model:
 Parser score:
 sl_ssj 80.03
 
+elexiswsd wolex no POS model:
+
+2023-01-11 15:36:41 INFO: LAS   MLAS    BLEX
+2023-01-11 15:36:41 INFO: 80.09 0.00    0.00
+Parser score:
+sl_ssj 80.09
+
 ssj500k-syn:
 
 2023-01-11 10:35:54 INFO: LAS   MLAS    BLEX
@@ -44,6 +51,11 @@ ssj500k-syn no POS model:
 2023-01-11 10:37:48 INFO: 72.90 0.00    0.00
 Parser score:
 sl_ssj 72.90
+
+ssj500k-syn wolex no POS model:
+
+Parser score:
+sl_ssj 72.95
 
 ...........................................................
 
@@ -67,3 +79,10 @@ SUK no POS model:
 2023-01-11 10:40:40 INFO: 73.79 0.00    0.00
 Parser score:
 sl_ssj 73.79
+
+SUK wolex no POS model:
+
+2023-01-11 15:39:26 INFO: LAS   MLAS    BLEX
+2023-01-11 15:39:26 INFO: 73.83 0.00    0.00
+Parser score:
+sl_ssj 73.83
