@@ -177,7 +177,7 @@ Evaluation results for each task:
 | baseline_newlex | UD | predicted with lexicon | predicted with lexicon | 90.38 |
 | baseline_newlex | UD | predicted with lexicon | predicted without lexicon | 90.39 |
 | baseline_newlex | UD | predicted without lexicon | predicted with lexicon | 90.37 |
-| baseline_newlex | UD | predicted without lexicon | predicted with lexicon | 90.50 |
+| baseline_newlex | UD | predicted without lexicon | predicted without lexicon | 90.50 |
 | baseline_newlex | JOS | predicted with lexicon | predicted with lexicon | 73.79 |
 | baseline_newlex | JOS | predicted with lexicon | predicted without lexicon | 73.76 |
 | baseline_newlex | JOS | predicted without lexicon | predicted with lexicon | 73.79 |
