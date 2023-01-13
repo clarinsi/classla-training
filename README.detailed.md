@@ -207,3 +207,4 @@ Evaluation results for each task:
 | baseline_newlex | predicted with lexicon | predicted without lexicon | 75.98 |
 | baseline_newlex | predicted without lexicon | predicted with lexicon | 75.82 |
 | baseline_newlex | predicted without lexicon | predicted without lexicon | 76.42 |
+
