@@ -1,0 +1,90 @@
+SRL tagger:
+---------------------
+---------------------
+
+
+elexiswsd:
+
+2023-01-13 11:21:29 INFO: Prec. Rec.    F1
+2023-01-13 11:21:29 INFO: 87.08 83.00   84.99
+2023-01-13 11:21:29 INFO: SRL tagger score:
+2023-01-13 11:21:29 INFO: sl_ssj 84.99
+
+elexiswsd wolex:
+
+2023-01-13 11:22:42 INFO: Prec. Rec.    F1
+2023-01-13 11:22:42 INFO: 87.76 83.53   85.60
+2023-01-13 11:22:42 INFO: SRL tagger score:
+2023-01-13 11:22:42 INFO: sl_ssj 85.60
+
+elexiswsd no POS model:
+
+2023-01-13 11:23:26 INFO: Prec. Rec.    F1
+2023-01-13 11:23:26 INFO: 86.94 82.86   84.85
+2023-01-13 11:23:26 INFO: SRL tagger score:
+2023-01-13 11:23:26 INFO: sl_ssj 84.85
+
+elexiswsd wolex no POS model:
+
+2023-01-13 11:24:25 INFO: Prec. Rec.    F1
+2023-01-13 11:24:25 INFO: 87.61 83.27   85.38
+2023-01-13 11:24:25 INFO: SRL tagger score:
+2023-01-13 11:24:25 INFO: sl_ssj 85.38
+
+ssj500k-syn:
+
+2023-01-13 11:25:22 INFO: Prec. Rec.    F1
+2023-01-13 11:25:22 INFO: 70.86 76.62   73.63
+2023-01-13 11:25:22 INFO: SRL tagger score:
+2023-01-13 11:25:22 INFO: sl_ssj 73.63
+
+ssj500k-syn wolex:
+
+2023-01-13 11:26:08 INFO: Prec. Rec.    F1
+2023-01-13 11:26:08 INFO: 70.99 76.69   73.73
+2023-01-13 11:26:08 INFO: SRL tagger score:
+2023-01-13 11:26:08 INFO: sl_ssj 73.73
+
+ssj500k-syn no POS model:
+
+2023-01-13 11:26:35 INFO: Prec. Rec.    F1
+2023-01-13 11:26:35 INFO: 70.95 76.66   73.70
+2023-01-13 11:26:35 INFO: SRL tagger score:
+2023-01-13 11:26:35 INFO: sl_ssj 73.70
+
+ssj500k-syn wolex no POS model:
+
+2023-01-13 11:27:09 INFO: Prec. Rec.    F1
+2023-01-13 11:27:09 INFO: 71.61 77.23   74.32
+2023-01-13 11:27:09 INFO: SRL tagger score:
+2023-01-13 11:27:09 INFO: sl_ssj 74.32
+
+...........................................................
+
+SUK:
+
+2023-01-13 11:27:43 INFO: Prec. Rec.    F1
+2023-01-13 11:27:43 INFO: 73.79 77.90   75.79
+2023-01-13 11:27:43 INFO: SRL tagger score:
+2023-01-13 11:27:43 INFO: sl_ssj 75.79
+
+SUK wolex:
+
+2023-01-13 11:28:14 INFO: Prec. Rec.    F1
+2023-01-13 11:28:14 INFO: 74.02 78.06   75.98
+2023-01-13 11:28:14 INFO: SRL tagger score:
+2023-01-13 11:28:14 INFO: sl_ssj 75.98
+
+SUK no POS model:
+
+2023-01-13 11:28:46 INFO: Prec. Rec.    F1
+2023-01-13 11:28:46 INFO: 73.84 77.90   75.82
+2023-01-13 11:28:46 INFO: SRL tagger score:
+2023-01-13 11:28:46 INFO: sl_ssj 75.82
+
+SUK wolex no POS model:
+
+2023-01-13 11:29:26 INFO: Prec. Rec.    F1
+2023-01-13 11:29:26 INFO: 74.50 78.44   76.42
+2023-01-13 11:29:26 INFO: SRL tagger score:
+2023-01-13 11:29:26 INFO: sl_ssj 76.42

@@ -5,84 +5,86 @@ dependency parser:
 
 elexiswsd:
 
-2023-01-11 10:33:58 INFO: LAS   MLAS    BLEX
-2023-01-11 10:33:58 INFO: 80.03 0.00    0.00
+2023-01-12 22:05:21 INFO: LAS   MLAS    BLEX
+2023-01-12 22:05:21 INFO: 95.13 0.00    0.00
 Parser score:
-sl_ssj 80.03
+sl_ssj 95.13
 
 elexiswsd wolex:
 
-2023-01-11 10:34:33 INFO: LAS   MLAS    BLEX
-2023-01-11 10:34:33 INFO: 80.06 0.00    0.00
+2023-01-12 22:05:57 INFO: LAS   MLAS    BLEX
+2023-01-12 22:05:57 INFO: 95.20 0.00    0.00
 Parser score:
-sl_ssj 80.06
+sl_ssj 95.20
 
 elexiswsd no POS model:
 
-2023-01-11 10:35:03 INFO: LAS   MLAS    BLEX
-2023-01-11 10:35:03 INFO: 80.03 0.00    0.00
+2023-01-12 22:06:27 INFO: LAS   MLAS    BLEX
+2023-01-12 22:06:27 INFO: 95.13 0.00    0.00
 Parser score:
-sl_ssj 80.03
+sl_ssj 95.13
 
 elexiswsd wolex no POS model:
 
-2023-01-11 15:36:41 INFO: LAS   MLAS    BLEX
-2023-01-11 15:36:41 INFO: 80.09 0.00    0.00
+2023-01-12 22:06:51 INFO: LAS   MLAS    BLEX
+2023-01-12 22:06:51 INFO: 95.26 0.00    0.00
 Parser score:
-sl_ssj 80.09
+sl_ssj 95.26
 
 ssj500k-syn:
 
-2023-01-11 10:35:54 INFO: LAS   MLAS    BLEX
-2023-01-11 10:35:54 INFO: 72.90 0.00    0.00
+2023-01-12 22:07:23 INFO: LAS   MLAS    BLEX
+2023-01-12 22:07:23 INFO: 93.53 0.00    0.00
 Parser score:
-sl_ssj 72.90
+sl_ssj 93.53
 
 ssj500k-syn wolex:
 
-2023-01-11 10:37:09 INFO: LAS   MLAS    BLEX
-2023-01-11 10:37:09 INFO: 72.86 0.00    0.00
+2023-01-12 22:07:56 INFO: LAS   MLAS    BLEX
+2023-01-12 22:07:56 INFO: 93.50 0.00    0.00
 Parser score:
-sl_ssj 72.86
+sl_ssj 93.50
 
 ssj500k-syn no POS model:
 
-2023-01-11 10:37:48 INFO: LAS   MLAS    BLEX
-2023-01-11 10:37:48 INFO: 72.90 0.00    0.00
+2023-01-12 22:08:21 INFO: LAS   MLAS    BLEX
+2023-01-12 22:08:21 INFO: 93.52 0.00    0.00
 Parser score:
-sl_ssj 72.90
+sl_ssj 93.52
 
 ssj500k-syn wolex no POS model:
 
+2023-01-12 22:09:03 INFO: LAS   MLAS    BLEX
+2023-01-12 22:09:03 INFO: 93.63 0.00    0.00
 Parser score:
-sl_ssj 72.95
+sl_ssj 93.63
 
 ...........................................................
 
 SUK:
 
-2023-01-11 10:38:47 INFO: LAS   MLAS    BLEX
-2023-01-11 10:38:47 INFO: 73.79 0.00    0.00
+2023-01-12 22:09:41 INFO: LAS   MLAS    BLEX
+2023-01-12 22:09:41 INFO: 93.73 0.00    0.00
 Parser score:
-sl_ssj 73.79
+sl_ssj 93.73
 
 SUK wolex:
 
-2023-01-11 10:39:33 INFO: LAS   MLAS    BLEX
-2023-01-11 10:39:33 INFO: 73.76 0.00    0.00
+2023-01-12 22:10:04 INFO: LAS   MLAS    BLEX
+2023-01-12 22:10:04 INFO: 93.71 0.00    0.00
 Parser score:
-sl_ssj 73.76
+sl_ssj 93.71
 
 SUK no POS model:
 
-2023-01-11 10:40:40 INFO: LAS   MLAS    BLEX
-2023-01-11 10:40:40 INFO: 73.79 0.00    0.00
+2023-01-12 22:10:43 INFO: LAS   MLAS    BLEX
+2023-01-12 22:10:43 INFO: 93.72 0.00    0.00
 Parser score:
-sl_ssj 73.79
+sl_ssj 93.72
 
 SUK wolex no POS model:
 
-2023-01-11 15:39:26 INFO: LAS   MLAS    BLEX
-2023-01-11 15:39:26 INFO: 73.83 0.00    0.00
+2023-01-12 22:11:07 INFO: LAS   MLAS    BLEX
+2023-01-12 22:11:07 INFO: 93.84 0.00    0.00
 Parser score:
-sl_ssj 73.83
+sl_ssj 93.84
