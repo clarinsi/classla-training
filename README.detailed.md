@@ -208,3 +208,53 @@ Evaluation results for each task:
 | baseline_newlex | predicted without lexicon | predicted with lexicon | 75.82 |
 | baseline_newlex | predicted without lexicon | predicted without lexicon | 76.42 |
 
+##Rerun Results
+
+Evaluation results for each task:
+
+### Morphosyntactic tagging
+
+| model | lexicon used during eval | UPOS | XPOS | UFeats | AllTags |
+| --- | --- | --- | --- | --- | --- |
+| baseline | Sloleks 2.0 | 98.84 | 97.41 | 97.13 | 96.61 |
+| baseline | no lexicon | 98.79 | 97.29 | 97.39 | 96.64 |
+| baseline_newlex | Sloleks 3.0 | 98.83 | 97.39 | 97.64 | 97.08 |
+| baseline_newlex | no lexicon | 98.81 | 97.35 | 97.43 | 96.74 |
+| 3ambiga | Sloleks 3.0 | 98.80 | 97.35 | 97.63 | 97.04 |
+| 3ambiga | no lexicon | 98.78 | 97.27 | 97.39 | 96.64 |
+
+### Lemmatization
+
+| model | lexicon used during eval | morphosyntax | F1 |
+| --- | --- | --- | --- |
+| baseline_newlex | Sloleks 3.0 | predicted with lexicon | 98.97 |
+| baseline_newlex | Sloleks 3.0 | predicted without lexicon | 98.96 |
+| baseline_newlex | no lexicon | predicted with lexicon | 98.97 |
+| baseline_newlex | no lexicon | predicted without lexicon | 98.90 |
+| 3ambiga | Sloleks 3.0 | predicted with lexicon | 98.98 |
+| 3ambiga | Sloleks 3.0 | predicted without lexicon | 98.96 |
+| 3ambiga | no lexicon | predicted with lexicon | 99.12 |
+| 3ambiga | no lexicon | predicted without lexicon | 99.02 |
+
+### Syntactic parsing
+
+| model | syntax type | lemmas | morphosyntax | LAS |
+| --- | --- | --- | --- | --- |
+| baseline_newlex | UD | predicted with lexicon | predicted with lexicon | 90.57 |
+| baseline_newlex | UD | predicted with lexicon | predicted without lexicon | 90.50 |
+| baseline_newlex | UD | predicted without lexicon | predicted with lexicon | 90.57 |
+| baseline_newlex | UD | predicted without lexicon | predicted without lexicon | 90.50 |
+| baseline_newlex | JOS | predicted with lexicon | predicted with lexicon | 93.89 |
+| baseline_newlex | JOS | predicted with lexicon | predicted without lexicon | 93.84 |
+| baseline_newlex | JOS | predicted without lexicon | predicted with lexicon | 93.89 |
+| baseline_newlex | JOS | predicted without lexicon | predicted without lexicon | 93.84 |
+
+### SRL tagging
+
+| model | lemmas | morphosyntax | F1 |
+| --- | --- | --- | --- |
+| baseline_newlex | predicted with lexicon | predicted with lexicon | 76.24 |
+| baseline_newlex | predicted with lexicon | predicted without lexicon | 76.43 |
+| baseline_newlex | predicted without lexicon | predicted with lexicon | 76.24 |
+| baseline_newlex | predicted without lexicon | predicted without lexicon | 76.42 |
+
