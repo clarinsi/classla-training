@@ -208,7 +208,7 @@ Evaluation results for each task:
 | baseline_newlex | predicted without lexicon | predicted with lexicon | 75.82 |
 | baseline_newlex | predicted without lexicon | predicted without lexicon | 76.42 |
 
-##Rerun Results
+## Rerun Results
 
 Evaluation results for each task:
 
@@ -218,10 +218,10 @@ Evaluation results for each task:
 | --- | --- | --- | --- | --- | --- |
 | baseline | Sloleks 2.0 | 98.84 | 97.41 | 97.13 | 96.61 |
 | baseline | no lexicon | 98.79 | 97.29 | 97.39 | 96.64 |
-| baseline_newlex | Sloleks 3.0 | 98.83 | 97.39 | 97.64 | 97.08 |
-| baseline_newlex | no lexicon | 98.81 | 97.35 | 97.43 | 96.74 |
-| 3ambiga | Sloleks 3.0 | 98.80 | 97.35 | 97.63 | 97.04 |
-| 3ambiga | no lexicon | 98.78 | 97.27 | 97.39 | 96.64 |
+| baseline_newlex | Sloleks 3.0 | 98.83 | 97.40 | 97.66 | 97.09 |
+| baseline_newlex | no lexicon | 98.81 | 97.32 | 97.43 | 96.71 |
+| 3ambiga | Sloleks 3.0 | 98.85 | 97.41 | 97.66 | 97.09 |
+| 3ambiga | no lexicon | 98.84 | 97.37 | 97.47 | 96.75 |
 
 ### Lemmatization
 
