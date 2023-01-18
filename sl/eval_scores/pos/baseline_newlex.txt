@@ -1,0 +1,89 @@
+tagger:
+---------------------
+---------------------
+
+SUK_ambiga_ud_test.conllu --use_lexicon foo:
+
+2023-01-16 11:16:21 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:16:21 INFO: 98.25 93.36   94.03   93.13
+Tagger score:
+sl_ssj 93.13
+
+SUK_ambiga_ud_test.conllu:
+
+2023-01-16 11:16:43 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:16:43 INFO: 98.09 92.68   94.88   92.06
+Tagger score:
+sl_ssj 92.06
+
+SUK_elexiswsd_ud_test.conllu --use_lexicon foo:
+
+2023-01-16 11:17:47 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:17:47 INFO: 98.67 97.28   97.50   97.16
+Tagger score:
+sl_ssj 97.16
+
+SUK_elexiswsd_ud_test.conllu:
+
+2023-01-16 11:18:18 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:18:18 INFO: 98.58 97.31   97.38   96.90
+Tagger score:
+sl_ssj 96.90
+
+SUK_senticoref_ud_test.conllu --use_lexicon foo:
+
+2023-01-16 11:19:28 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:19:28 INFO: 99.04 98.01   98.29   97.66
+Tagger score:
+sl_ssj 97.66
+
+SUK_senticoref_ud_test.conllu:
+
+2023-01-16 11:19:56 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:19:56 INFO: 99.05 98.09   98.20   97.50
+Tagger score:
+sl_ssj 97.50
+
+SUK_ssj500k-syn_ud_test.conllu --use_lexicon foo:
+
+2023-01-16 11:21:03 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:21:03 INFO: 98.59 97.03   97.20   96.57
+Tagger score:
+sl_ssj 96.57
+
+SUK_ssj500k-syn_ud_test.conllu:
+
+2023-01-16 11:21:29 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:21:29 INFO: 98.49 96.84   96.86   96.05
+Tagger score:
+sl_ssj 96.05
+
+SUK_ssj500k-tag_ud_test.conllu --use_lexicon foo:
+
+2023-01-16 11:22:25 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:22:25 INFO: 98.79 97.11   97.35   96.93
+Tagger score:
+sl_ssj 96.93
+
+SUK_ssj500k-tag_ud_test.conllu:
+
+2023-01-16 11:22:51 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:22:51 INFO: 98.81 97.06   97.05   96.54
+Tagger score:
+sl_ssj 96.54
+
+...........................................................
+
+SUK_ud_test.conllu --use_lexicon foo:
+
+2023-01-16 11:24:15 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:24:15 INFO: 98.83 97.39   97.64   97.08
+Tagger score:
+sl_ssj 97.08
+
+SUK_ud_test.conllu:
+
+2023-01-16 11:24:55 INFO: UPOS  XPOS    UFeats  AllTags
+2023-01-16 11:24:55 INFO: 98.81 97.35   97.43   96.74
+Tagger score:
+sl_ssj 96.74

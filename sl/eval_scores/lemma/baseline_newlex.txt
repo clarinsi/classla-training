@@ -1,0 +1,125 @@
+lemmatizer:
+---------------------
+---------------------
+
+ambiga all_lexicon:
+
+Lemma score:
+None 98.20
+
+ambiga no_pos_lexicon:
+
+Lemma score:
+None 97.64
+
+ambiga no_lemma_lexicon:
+
+Lemma score:
+None 97.64
+
+ambiga both_no_lexicon:
+
+Lemma score:
+None 97.24
+
+elexiswsd all_lexicon:
+
+Lemma score:
+None 98.70
+
+elexiswsd no_pos_lexicon:
+
+Lemma score:
+None 98.77
+
+elexiswsd no_lemma_lexicon:
+
+Lemma score:
+None 98.36
+
+elexiswsd both_no_lexicon:
+
+Lemma score:
+None 98.33
+
+senticoref all_lexicon:
+
+Lemma score:
+None 99.11
+
+senticoref no_pos_lexicon:
+
+Lemma score:
+None 99.11
+
+senticoref no_lemma_lexicon:
+
+Lemma score:
+None 99.31
+
+senticoref both_no_lexicon:
+
+Lemma score:
+None 99.26
+
+ssj500k-syn all_lexicon:
+
+Lemma score:
+None 98.94
+
+ssj500k-syn no_pos_lexicon:
+
+Lemma score:
+None 98.85
+
+ssj500k-syn no_lemma_lexicon:
+
+Lemma score:
+None 98.76
+
+ssj500k-syn both_no_lexicon:
+
+Lemma score:
+None 98.65
+
+ssj500k-tag all_lexicon:
+
+Lemma score:
+None 98.91
+
+ssj500k-tag no_pos_lexicon:
+
+Lemma score:
+None 98.95
+
+ssj500k-tag no_lemma_lexicon:
+
+Lemma score:
+None 98.85
+
+ssj500k-tag both_no_lexicon:
+
+Lemma score:
+None 98.79
+
+...........................................................
+
+SUK all_lexicon:
+
+Lemma score:
+None 98.97
+
+SUK no_pos_lexicon:
+
+Lemma score:
+None 98.96
+
+SUK no_lemma_lexicon:
+
+Lemma score:
+None 98.97
+
+SUK both_no_lexicon:
+
+Lemma score:
+None 98.90

@@ -1,0 +1,66 @@
+dependency parser:
+---------------------
+---------------------
+
+elexiswsd all_lexicon:
+
+Parser score:
+sl_ssj 95.20
+
+elexiswsd no_pos_lexicon:
+
+Parser score:
+sl_ssj 95.26
+
+elexiswsd no_lemma_lexicon:
+
+Parser score:
+sl_ssj 95.20
+
+elexiswsd both_no_lexicon:
+
+Parser score:
+sl_ssj 95.26
+
+ssj500k-syn all_lexicon:
+
+Parser score:
+sl_ssj 93.71
+
+ssj500k-syn no_pos_lexicon:
+
+Parser score:
+sl_ssj 93.63
+
+ssj500k-syn no_lemma_lexicon:
+
+Parser score:
+sl_ssj 93.70
+
+ssj500k-syn both_no_lexicon:
+
+Parser score:
+sl_ssj 93.63
+
+
+...........................................................
+
+SUK all_lexicon:
+
+Parser score:
+sl_ssj 93.89
+
+SUK no_pos_lexicon:
+
+Parser score:
+sl_ssj 93.84
+
+SUK no_lemma_lexicon:
+
+Parser score:
+sl_ssj 93.89
+
+SUK both_no_lexicon:
+
+Parser score:
+sl_ssj 93.84

@@ -1,0 +1,66 @@
+srl tagger:
+---------------------
+---------------------
+
+elexiswsd all_lexicon:
+
+2023-01-16 15:54:44 INFO: SRL tagger score:
+2023-01-16 15:54:44 INFO: sl_ssj 84.91
+
+elexiswsd no_pos_lexicon:
+
+2023-01-16 15:54:48 INFO: SRL tagger score:
+2023-01-16 15:54:48 INFO: sl_ssj 85.52
+
+elexiswsd no_lemma_lexicon:
+
+2023-01-16 15:54:51 INFO: SRL tagger score:
+2023-01-16 15:54:51 INFO: sl_ssj 84.77
+
+elexiswsd both_no_lexicon:
+
+2023-01-16 15:54:54 INFO: SRL tagger score:
+2023-01-16 15:54:54 INFO: sl_ssj 85.38
+
+ssj500k-syn all_lexicon:
+
+2023-01-16 15:54:58 INFO: SRL tagger score:
+2023-01-16 15:54:58 INFO: sl_ssj 74.20
+
+ssj500k-syn no_pos_lexicon:
+
+2023-01-16 15:55:02 INFO: SRL tagger score:
+2023-01-16 15:55:02 INFO: sl_ssj 74.29
+
+ssj500k-syn no_lemma_lexicon:
+
+2023-01-16 15:55:06 INFO: SRL tagger score:
+2023-01-16 15:55:06 INFO: sl_ssj 74.23
+
+ssj500k-syn both_no_lexicon:
+
+
+2023-01-16 15:55:10 INFO: SRL tagger score:
+2023-01-16 15:55:10 INFO: sl_ssj 74.32
+
+...........................................................
+
+SUK all_lexicon:
+
+2023-01-16 15:55:14 INFO: SRL tagger score:
+2023-01-16 15:55:14 INFO: sl_ssj 76.24
+
+SUK no_pos_lexicon:
+
+2023-01-16 15:55:18 INFO: SRL tagger score:
+2023-01-16 15:55:18 INFO: sl_ssj 76.43
+
+SUK no_lemma_lexicon:
+
+2023-01-16 15:55:22 INFO: SRL tagger score:
+2023-01-16 15:55:22 INFO: sl_ssj 76.24
+
+SUK both_no_lexicon:
+
+2023-01-16 15:55:26 INFO: SRL tagger score:
+2023-01-16 15:55:26 INFO: sl_ssj 76.42

@@ -1,0 +1,90 @@
+dependency parser:
+---------------------
+---------------------
+
+elexiswsd all_lexicon:
+
+2023-01-16 13:48:35 INFO: LAS   MLAS    BLEX
+2023-01-16 13:48:35 INFO: 95.13 90.47   92.15
+Parser score:
+sl_ssj 95.13
+
+elexiswsd no_pos_lexicon:
+
+2023-01-16 13:48:38 INFO: LAS   MLAS    BLEX
+2023-01-16 13:48:38 INFO: 95.13 90.39   92.18
+Parser score:
+sl_ssj 95.13
+
+elexiswsd no_lemma_lexicon:
+
+2023-01-16 13:48:42 INFO: LAS   MLAS    BLEX
+2023-01-16 13:48:42 INFO: 95.13 90.47   91.39
+Parser score:
+sl_ssj 95.13
+
+elexiswsd both_no_lexicon:
+
+2023-01-16 13:48:45 INFO: LAS   MLAS    BLEX
+2023-01-16 13:48:45 INFO: 95.13 90.39   91.36
+Parser score:
+sl_ssj 95.13
+
+ssj500k-syn all_lexicon:
+
+2023-01-16 13:48:50 INFO: LAS   MLAS    BLEX
+2023-01-16 13:48:50 INFO: 89.93 84.22   86.73
+Parser score:
+sl_ssj 89.93
+
+ssj500k-syn no_pos_lexicon:
+
+2023-01-16 13:48:56 INFO: LAS   MLAS    BLEX
+2023-01-16 13:48:56 INFO: 89.85 83.88   86.49
+Parser score:
+sl_ssj 89.85
+
+ssj500k-syn no_lemma_lexicon:
+
+2023-01-16 13:49:01 INFO: LAS   MLAS    BLEX
+2023-01-16 13:49:01 INFO: 89.92 84.21   86.44
+Parser score:
+sl_ssj 89.92
+
+ssj500k-syn both_no_lexicon:
+
+2023-01-16 13:49:06 INFO: LAS   MLAS    BLEX
+2023-01-16 13:49:06 INFO: 89.84 83.87   86.19
+Parser score:
+sl_ssj 89.84
+
+
+...........................................................
+
+SUK all_lexicon:
+
+2023-01-16 13:59:34 INFO: LAS   MLAS    BLEX
+2023-01-16 13:59:34 INFO: 90.57 85.01   87.43
+Parser score:
+sl_ssj 90.57
+
+SUK no_pos_lexicon:
+
+2023-01-16 13:59:40 INFO: LAS   MLAS    BLEX
+2023-01-16 13:59:40 INFO: 90.50 84.71   87.22
+Parser score:
+sl_ssj 90.50
+
+SUK no_lemma_lexicon:
+
+2023-01-16 13:59:45 INFO: LAS   MLAS    BLEX
+2023-01-16 13:59:45 INFO: 90.57 85.01   87.07
+Parser score:
+sl_ssj 90.57
+
+SUK both_no_lexicon:
+
+2023-01-16 13:59:51 INFO: LAS   MLAS    BLEX
+2023-01-16 13:59:51 INFO: 90.50 84.70   86.85
+Parser score:
+sl_ssj 90.50
