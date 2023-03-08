@@ -33,6 +33,21 @@ Similarly to the tagger, two lemmatizers were trained:
 - python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-lex --train_file conllu/train/janes_ud_train.conllu --eval_file out/pos/baseline_pos-lex.conllu --output_file out-temp/baseline_lemma-lex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --mode train --num_epoch 30 --decay_epoch 20 --pos --pos_model_path models/pos/baseline_pos-lex
 - python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-wolex --train_file conllu/train/janes_ud_train.conllu --eval_file out/pos/baseline_pos-wolex.conllu --output_file out-temp/baseline_lemma-wolex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --mode train --num_epoch 30 --decay_epoch 20 --pos
 
+The following commands were used for lemmatizer evaluation. They cover four different combinations of lexicon usage: "baseline_lemma-lex_pos-lex" refers to lexicon used during lemma prediction and lexicon-predicted upstream pos annotations, "baseline_lemma-lex_pos-wolex" refers to lexicon used during lemma prediction and upstream pos annotations predicted without lexicon,
+"baseline_lemma-wolex_pos-lex" refers to no lexicon used during lemma prediction and lexicon-predicted upstream pos annotations, "baseline_lemma-wolex_pos-wolex" refers to no lexicon used during lemma prediction and upstream pos annotations predicted without lexicon:
+
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-lex --eval_file out/pos/baseline_pos-lex.conllu --output_file out/lemma/baseline_lemma-lex_pos-lex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --pos_model_path models/pos/baseline_pos-lex --mode predict
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-lex --eval_file out/pos/baseline_pos-wolex.conllu --output_file out/lemma/baseline_lemma-lex_pos-wolex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --pos_model_path models/pos/baseline_pos-lex --mode predict
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-wolex --eval_file out/pos/baseline_pos-lex.conllu --output_file out/lemma/baseline_lemma-wolex_pos-lex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --mode predict
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-wolex --eval_file out/pos/baseline_pos-wolex.conllu --output_file out/lemma/baseline_lemma-wolex_pos-wolex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --mode predict
+
+
+
+
+
+
+
+
 results should include:
 
 tagger:
