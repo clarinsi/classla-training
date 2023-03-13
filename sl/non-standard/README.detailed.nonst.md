@@ -51,6 +51,15 @@ The combined training dataset is located at conllu/train/combined_ud_train.conll
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu/train/combined_ud_train.conllu --eval_file conllu/dev/combined_ud_dev.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --shorthand sl_ssj --output_file out-temp/baseline+suk_pos-lex.conllu --inflectional_lexicon_path sloleks_clarin_3.0_classla_ready.tbl
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-wolex --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu/train/combined_ud_train.conllu --eval_file conllu/dev/combined_ud_dev.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --shorthand sl_ssj --output_file out-temp/baseline+suk_pos-wolex.conllu
 
+Evaluation was carried out on both the janes dev set and SUK dev set:
+
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --eval_file conllu/dev/janes_ud_dev_empty.conllu --output_file out/pos/baseline+suk_pos-lex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-wolex --eval_file conllu/dev/janes_ud_dev_empty.conllu --output_file out/pos/baseline+suk_pos-wolex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict
+
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --eval_file conllu/dev/SUK_ud_dev_empty.conllu --output_file out/pos/SUK_dev_eval/suk-dev-eval-baseline+suk_pos-lex.conllu --gold_file conllu/dev/SUK_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-wolex --eval_file conllu/dev/SUK_ud_dev_empty.conllu --output_file out/pos/SUK_dev_eval/suk-dev-eval-baseline+suk_pos-wolex.conllu --gold_file conllu/dev/SUK_ud_dev.conllu --shorthand sl_ssj --mode predict
+
+
 
 
 
