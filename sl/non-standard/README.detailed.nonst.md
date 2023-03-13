@@ -4,7 +4,7 @@ Before being fed to Classla as input, the Janes-tag 3.0 data had to be slightly 
 
 The models were trained in two phases: the first set of models were trained on Janes-tag 3.0 training data (referred to as baseline), the second set was trained on a combination of Janes-tag 3.0 and SUK training data (with an equal representation of both corpora) (referred to as baseline+SUK)
 
-##Janes-only models
+## Janes-only models
 
 ### Tagger
 
@@ -18,7 +18,7 @@ The evaluation was carried out using the following commands:
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos-lex --eval_file conllu/dev/janes_ud_dev_empty.conllu --output_file out/pos/baseline_pos-lex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos-wolex --eval_file conllu/dev/janes_ud_dev_empty.conllu --output_file out/pos/baseline_pos-wolex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict
 
-For the subcorpora:
+As an additional check, the taggers were also evaluated on the subcorpora test sets:
 
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos-lex --eval_file conllu/dev/janes-rsdo_ud_dev_empty.conllu --output_file out/pos/baseline_pos-lex_janes-rsdo.conllu --gold_file conllu/dev/janes-rsdo_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos-wolex --eval_file conllu/dev/janes-rsdo_ud_dev_empty.conllu --output_file out/pos/baseline_pos-wolex_janes-rsdo.conllu --gold_file conllu/dev/janes-rsdo_ud_dev.conllu --shorthand sl_ssj --mode predict
@@ -41,7 +41,15 @@ The following commands were used for lemmatizer evaluation. They cover four diff
 - python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-wolex --eval_file out/pos/baseline_pos-lex.conllu --output_file out/lemma/baseline_lemma-wolex_pos-lex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --mode predict
 - python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma-wolex --eval_file out/pos/baseline_pos-wolex.conllu --output_file out/lemma/baseline_lemma-wolex_pos-wolex.conllu --gold_file conllu/dev/janes_ud_dev.conllu --mode predict
 
+## Combined Janes+SUK models
 
+### Tagger
+
+In the next phase, a combined model was trained on both Janes and SUK training data and evaluated on SUK dev data. To reach a 1:1 ratio of both training sets, the Janes-tag 3.0 training data was repeated 4.7 times. The code for oversampling Janes-tag 3.0 is contained in oversampling.py.
+The combined training dataset is located at conllu/train/combined_ud_train.conllu. This combined model is henceforth referred to as baseline+suk. The tagger training was carried out as follows:
+
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu/train/combined_ud_train.conllu --eval_file conllu/dev/combined_ud_dev.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --shorthand sl_ssj --output_file out-temp/baseline+suk_pos-lex.conllu --inflectional_lexicon_path sloleks_clarin_3.0_classla_ready.tbl
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-wolex --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu/train/combined_ud_train.conllu --eval_file conllu/dev/combined_ud_dev.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --shorthand sl_ssj --output_file out-temp/baseline+suk_pos-wolex.conllu
 
 
 
