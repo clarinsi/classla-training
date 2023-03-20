@@ -1,4 +1,4 @@
-# Tagger results 
+# Lemmatizer results 
 
 "baseline_lemma-lex_pos-lex" refers to lexicon used during lemma prediction and lexicon-predicted upstream pos annotations, "baseline_lemma-lex_pos-wolex" refers to lexicon used during lemma prediction and upstream pos annotations predicted without lexicon,
 "baseline_lemma-wolex_pos-lex" refers to no lexicon used during lemma prediction and lexicon-predicted upstream pos annotations, "baseline_lemma-wolex_pos-wolex" refers to no lexicon used during lemma prediction and upstream pos annotations predicted without lexicon:
