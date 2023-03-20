@@ -59,6 +59,13 @@ Evaluation was carried out on both the janes dev set and SUK dev set:
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --eval_file conllu/dev/SUK_ud_dev_empty.conllu --output_file out/pos/SUK_dev_eval/suk-dev-eval-baseline+suk_pos-lex.conllu --gold_file conllu/dev/SUK_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
 - python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-wolex --eval_file conllu/dev/SUK_ud_dev_empty.conllu --output_file out/pos/SUK_dev_eval/suk-dev-eval-baseline+suk_pos-wolex.conllu --gold_file conllu/dev/SUK_ud_dev.conllu --shorthand sl_ssj --mode predict
 
+### Lemmatizer
+
+the lemmatizer training was carried out as follows:
+
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk_lemma-lex --train_file conllu/train/combined_ud_train.conllu --eval_file out/pos/combined_dev_pos-lex_predict.conllu --output_file out/lemma/baseline+suk_lemma-lex.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --num_epoch 30 --decay_epoch 20 --pos --pos_model_path models/pos/baseline+suk_pos-lex
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk_lemma-lex --train_file conllu/train/combined_ud_train.conllu --eval_file out/pos/combined_dev_pos-lex_predict.conllu --output_file out/lemma/baseline+suk_lemma-lex.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --num_epoch 30 --decay_epoch 20 --pos --pos_model_path models/pos/baseline+suk_pos-lex
+
 
 
 
