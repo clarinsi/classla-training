@@ -1,6 +1,6 @@
 # Detailed description of the non-standard model training procedure
 
-Before being fed to Classla as input, the Janes-tag 3.0 data had to be slightly adjusted. The spaces in the 1:n-type tokens were removed, while the n:1-type tokens were kept as they were. The data preparation code can be found in prepare.py
+Before being fed to Classla as input, the Janes-tag 3.0 data had to be slightly adjusted. The spaces in the n:1-type tokens were removed, while the 1:n-type tokens were kept as they were. The data preparation code can be found in prepare.py
 
 The models were trained in two phases: the first set of models were trained on Janes-tag 3.0 training data (referred to as baseline), the second set was trained on a combination of Janes-tag 3.0 and SUK training data (with an equal representation of both corpora) (referred to as baseline+SUK)
 
@@ -90,30 +90,15 @@ Lemmatizer evaluation was carried out on both the janes dev set and SUK dev set:
 
 
 
+# Results
 
+## Experimenting with diacritics
 
+The janes dev set was then stripped of diacritics and evaluated using the baseline+suk model (using the lexicon on all levels). The conversion was between the following characters: 
+["č", "š", "ž", "ć", "ś", "ź", "đ", "Č", "Š", "Ž", "Ć", "Ś", "Ź", "Đ"]  --------> ["c", "s", "z", "dj", "C", "S", "Z", "Dj"]. The conversion script and resulting file is in conllu/no_diacritics/.
 
-results should include:
+evaluation:
 
-tagger:
---------
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --eval_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized_empty.conllu --output_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
 
-baseline_pos-lex
-baseline_pos-wolex
-
-baseline+suk_pos-lex
-baseline+suk_pos-wolex
-
-
-lemmatizer:
---------
-
-baseline_lemma-lex_pos-lex
-baseline_lemma-lex_pos-wolex
-baseline_lemma-wolex_pos-lex
-baseline_lemma-wolex_pos-wolex
-
-baseline+suk_lemma-lex_pos-lex
-baseline+suk_lemma-lex_pos-wolex
-baseline+suk_lemma-wolex_pos-lex
-baseline+suk_lemma-wolex_pos-wolex
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk_lemma-lex --eval_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --output_file out/lemma/no_diacritics/baseline+suk_lemma-lex_pos-lex_dediacritized.conllu --gold_file conllu/dev/janes_ud_dev.conllu --pos_model_path models/pos/baseline+suk_pos-lex --mode predict
