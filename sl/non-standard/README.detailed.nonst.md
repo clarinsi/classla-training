@@ -99,6 +99,13 @@ The janes dev set was then stripped of diacritics and evaluated using the baseli
 
 evaluation:
 
-- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --eval_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized_empty.conllu --output_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk_pos-lex --eval_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized_empty.conllu --output_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --gold_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
 
-- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk_lemma-lex --eval_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --output_file out/lemma/no_diacritics/baseline+suk_lemma-lex_pos-lex_dediacritized.conllu --gold_file conllu/dev/janes_ud_dev.conllu --pos_model_path models/pos/baseline+suk_pos-lex --mode predict
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk_lemma-lex --eval_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --output_file out/lemma/no_diacritics/baseline+suk_lemma-lex_pos-lex_dediacritized.conllu --gold_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized.conllu --pos_model_path models/pos/baseline+suk_pos-lex --mode predict
+
+results on janes dev with no diacritics:
+
+| model | AllTags/F1 |
+| --- | --- |
+| tagger | 89.91 |
+| lemmatizer | 89.27 |

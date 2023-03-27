@@ -1,7 +1,7 @@
 diacritics = ["č", "š", "ž", "ć", "ś", "ź", "đ", "Č", "Š", "Ž", "Ć", "Ś", "Ź", "Đ"]
 
-with open("janes_ud_dev_empty.conllu", "r", encoding="utf-8") as rf:
-    with open("janes_ud_dev_dediacritized_empty.conllu", "w", encoding="utf-8") as wf:
+with open("janes_ud_dev.conllu", "r", encoding="utf-8") as rf:
+    with open("janes_ud_dev_dediacritized.conllu", "w", encoding="utf-8") as wf:
         for line in rf.readlines():
             if not line.startswith("#") and not line.startswith("\n"):
                 split_line = line.split("\t")
