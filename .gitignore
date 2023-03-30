@@ -3,4 +3,5 @@
 /sl/non-standard/models/
 /sl/non-standard/conllu/train/SUK_ud_train.conllu
 /sl/non-standard/conllu/train/combined_ud_train.conllu
+/sl/non-standard/conllu/train/combined+dediacritized_ud_train.conllu
 Fixed_Commands.txt

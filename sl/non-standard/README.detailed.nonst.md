@@ -109,3 +109,24 @@ results on janes dev with no diacritics:
 | --- | --- |
 | tagger | 89.91 |
 | lemmatizer | 89.27 |
+
+The results are significantly lower, so a new set of models was trained on a train set in which one janes repetition (out of the 4.7 in the combined set) has no diacritics and another repetition has a 50% chance of diacritic drop. The script for compiling the dediacritized train set is contained in Oversampling+less_diacritics.py. The models were trained with maximum lexicon usage.
+
+Training was carried out in the following way:
+
+### Tagger
+
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk+dediacritized --wordvec_file all-token-prelim.ft.sg.vec.xz --train_file conllu/train/combined+dediacritized_ud_train.conllu --eval_file conllu/dev/combined_ud_dev.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --shorthand sl_ssj --output_file out-temp/baseline+suk+dediacritized_pos.conllu --inflectional_lexicon_path sloleks_clarin_3.0_classla_ready.tbl
+
+### Lemmatizer
+
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk+dediacritized --train_file conllu/train/combined+dediacritized_ud_train.conllu --eval_file out/pos/combined+suk+dediacritized_pos_predictions.conllu --output_file out-temp/baseline+suk_lemma-lex.conllu --gold_file conllu/dev/combined_ud_dev.conllu --mode train --num_epoch 30 --decay_epoch 20 --pos --pos_model_path models/pos/baseline+suk_pos-lex
+
+### Evaluation 
+
+Eval results on the dediacritized model:
+
+| model | AllTags/F1 |
+| --- | --- |
+| tagger |  |
+| lemmatizer |  |
