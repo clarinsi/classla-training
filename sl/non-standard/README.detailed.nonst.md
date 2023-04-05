@@ -95,7 +95,7 @@ Lemmatizer evaluation was carried out on both the janes dev set and SUK dev set:
 ## Experimenting with diacritics
 
 The janes dev set was then stripped of diacritics and evaluated using the baseline+suk model (using the lexicon on all levels). The conversion was between the following characters: 
-["č", "š", "ž", "ć", "ś", "ź", "đ", "Č", "Š", "Ž", "Ć", "Ś", "Ź", "Đ"]  --------> ["c", "s", "z", "dj", "C", "S", "Z", "Dj"]. The conversion script and resulting file is in conllu/no_diacritics/.
+["č", "š", "ž", "ć", "ś", "ź", "đ", "Č", "Š", "Ž", "Ć", "Ś", "Ź", "Đ"]  --------> ["c", "s", "z", "dj", "C", "S", "Z", "Dj"]. The conversion script and resulting file is in conllu/dev/no_diacritics/.
 
 evaluation:
 
@@ -103,12 +103,17 @@ evaluation:
 
 - python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk_lemma-lex --eval_file out/pos/no_diacritics/baseline+suk_pos-lex_dediacritized.conllu --output_file out/lemma/no_diacritics/baseline+suk_lemma-lex_pos-lex_dediacritized.conllu --gold_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized.conllu --pos_model_path models/pos/baseline+suk_pos-lex --mode predict
 
-results on janes dev with no diacritics:
+results for the baseline+suk model on janes dev with and without diacritics and SUK:
 
-| model | AllTags/F1 |
-| --- | --- |
-| tagger | 89.91 |
-| lemmatizer | 89.27 |
+
+| model | dev set | AllTags/F1 |
+| --- | --- | --- |
+| tagger | janes | 91.17 |
+| lemmatizer | janes | 91.24 |
+| tagger | janes no diacritics | 89.91 |
+| lemmatizer | janes no diacritics | 89.27 |
+| tagger | SUK | 96.42 |
+| lemmatizer | SUK | 98.78 |
 
 The results are significantly lower, so a new set of models was trained on a train set in which one janes repetition (out of the 4.7 in the combined set) has no diacritics and another repetition has a 50% chance of diacritic drop. The script for compiling the dediacritized train set is contained in Oversampling+less_diacritics.py. The models were trained with maximum lexicon usage.
 
@@ -124,9 +129,25 @@ Training was carried out in the following way:
 
 ### Evaluation 
 
-Eval results on the dediacritized model:
+commands used:
 
-| model | AllTags/F1 |
-| --- | --- |
-| tagger |  |
-| lemmatizer |  |
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk+dediacritized --eval_file conllu/dev/janes_ud_dev_empty.conllu --output_file out/pos/dediacritized_model/baseline+suk+dediacritized_janes-dia_pos.conllu --gold_file conllu/dev/janes_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk+dediacritized --eval_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized_empty.conllu --output_file out/pos/dediacritized_model/baseline+suk+dediacritized_janes-no-dia_pos.conllu --gold_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
+- python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk+dediacritized --eval_file conllu/dev/SUK_ud_dev_empty.conllu --output_file out/pos/dediacritized_model/baseline+suk+dediacritized_SUK_pos.conllu --gold_file conllu/dev/SUK_ud_dev.conllu --shorthand sl_ssj --mode predict --use_lexicon foo
+
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk+dediacritized --eval_file out/pos/dediacritized_model/baseline+suk+dediacritized_janes-dia_pos.conllu --output_file out/lemma/dediacritized_model/baseline+suk+dediacritized_janes-dia_lemma.conllu --gold_file conllu/dev/janes_ud_dev.conllu --pos_model_path models/pos/baseline+suk+dediacritized --mode predict
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk+dediacritized --eval_file out/pos/dediacritized_model/baseline+suk+dediacritized_janes-no-dia_pos.conllu --output_file out/lemma/dediacritized_model/baseline+suk+dediacritized_janes-no-dia_lemma.conllu --gold_file conllu/dev/no_diacritics/janes_ud_dev_dediacritized.conllu --pos_model_path models/pos/baseline+suk+dediacritized --mode predict
+- python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk+dediacritized --eval_file out/pos/dediacritized_model/baseline+suk+dediacritized_SUK_pos.conllu --output_file out/lemma/dediacritized_model/baseline+suk+dediacritized_SUK_lemma.conllu --gold_file conllu/dev/SUK_ud_dev.conllu --pos_model_path models/pos/baseline+suk+dediacritized --mode predict
+
+Eval results for the baseline+suk+dediacritized model on janes dev with and without diacritics and SUK:
+
+| model | dev set | AllTags/F1 |
+| --- | --- | --- |
+| tagger | janes | 91.20 |
+| lemmatizer | janes | 91.45 |
+| tagger | janes no diacritics | 90.53 |
+| lemmatizer | janes no diacritics | 90.29 |
+| tagger | SUK | 96.39 |
+| lemmatizer | SUK | 98.75 |
+
+This baseline+suk+dediacritized model was chosen as the one that is to be published, since it displays a lower performance drop on the dev set without diacritics and its performance on the dev set with diacritics is better than the baseline+suk model. In addition, the performance drop on the SUK dev set is also very small.
