@@ -1,0 +1,8 @@
+Running tagger in predict mode
+Loading model from: output//baseline-wolex_pos
+Loading data with batch size 5000...
+Start evaluation...
+Tagger score:
+2023-04-16 23:15:23 INFO: UPOS  XPOS    UFeats  AllTags
+2023-04-16 23:15:23 INFO: 97.73 94.87   95.37   94.33
+hr_set 94.33

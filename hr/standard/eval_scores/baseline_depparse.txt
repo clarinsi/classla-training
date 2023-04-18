@@ -1,0 +1,9 @@
+Running parser in predict mode
+Loading model from: output//baseline_depparse
+Loading data with batch size 5000...
+Start evaluation...
+2023-04-17 17:01:12 INFO: LAS   MLAS    BLEX
+2023-04-17 17:01:12 INFO: 87.46 78.92   82.72
+step 32300: train_loss = 1.096898, dev_score = 0.8746
+Parser score:
+hr_set 87.82
