@@ -4,7 +4,7 @@ The Croatian models are trained in a slightly different way than the Slovene mod
 
 ## Tagger
 
-The tagger was trained using the following commands:
+The tagger was trained using the following command:
 
 -python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos --wordvec_file all-token-hr-prelim.ft.sg.vec.xz --train_file conllu/hr500k-train.conllu --eval_file conllu/hr500k-dev.conllu --gold_file conllu/hr500k-dev.conllu --mode train --shorthand hr_set --output_file out-temp/pos/baseline_pos.conllu
 
@@ -35,6 +35,14 @@ The parser was trained on the hr_set-ud subset of the hr500k dataset. The datase
 Evaluation:
 
 - python -m classla.models.parser --save_dir models/depparse/ --save_name baseline_depparse --eval_file out/pre-parsing/hr_set-ud-test_pos_lemma.conllu --gold_file conllu/hr_set-ud-test.conllu --shorthand hr_set --output_file out/depparse/baseline_pos_lemma_depparse.conllu --mode predict >> eval_scores/baseline_depparse.txt
+
+## SRL tagger
+
+SRL NEEDS TO BE RESOLVED!!!! First the sentences containing SRL tags had to be extracted from the hr500k corpus and properly formatted. The extraction script is contained in conllu/extract_srl.py.
+
+Training:
+
+- python -m classla.models.srl_tagger --pretrain_file models/depparse/hr_set.pretrain.pt --train_file conllu/hr500k-train_srl.conllu --eval_file out/srl_dev_pos_lemma_depparse.conllu --gold_file conllu/hr500k-dev_srl.conllu --lang hr --shorthand hr_set --mode train --save_dir models/srl/ --save_name baseline_srl --output_file out-temp/temp_hr500k-dev.conllu
 
 
 ## Results:

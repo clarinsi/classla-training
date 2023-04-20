@@ -1,0 +1,11 @@
+Running tagger in predict mode
+Loading model from: output//baseline_pos
+Loading data with batch size 5000...
+Running tagger in predict mode
+Loading model from: output//baseline_pos
+Loading data with batch size 5000...
+Start evaluation...
+2023-04-19 10:47:46 INFO: UPOS  XPOS    UFeats  AllTags
+2023-04-19 10:47:46 INFO: 97.66 94.74   95.16   94.09
+Tagger score:
+hr_set 94.09
