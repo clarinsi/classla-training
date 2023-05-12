@@ -47,20 +47,20 @@ Training:
 
 ## Results:
 
-# morphosyntax:
+### morphosyntax:
 
 | model | UPOS | XPOS | UFeats | AllTags |
 | --- | --- | --- | --- | --- |
 | baseline | 97.73 | 94.87 | 95.37 | 94.33 |
 
-# lemmatization
+### lemmatization
 
 | model | lexicon used? | F1 |
 | --- | --- | --- |
 | baseline | Yes | 98.02 |
 | baseline-wolex | No | 97.49 |
 
-# parsing
+### parsing
 
 | model | LAS |
 | --- | --- |

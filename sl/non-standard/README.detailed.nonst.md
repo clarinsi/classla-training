@@ -150,4 +150,4 @@ Eval results for the baseline+suk+dediacritized model on janes dev with and with
 | tagger | SUK | 96.39 |
 | lemmatizer | SUK | 98.75 |
 
-This baseline+suk+dediacritized model was chosen as the one that is to be published, since it displays a lower performance drop on the dev set without diacritics and its performance on the dev set with diacritics is better than the baseline+suk model. In addition, the performance drop on the SUK dev set is also very small.
+This baseline+suk+dediacritized model was chosen as the one that is to be published, since it displays a lower performance drop on the dev set without diacritics and its performance on the dev set with diacritics is better than the baseline+suk model. In addition, the performance drop on the SUK dev set is also very small. The published models all include the lexicon.
