@@ -1,0 +1,9 @@
+Running tagger in predict mode
+Loading model from: .//sl_nonstandard
+Loading data with batch size 5000...
+Start evaluation...
+2023-06-02 11:40:14 INFO: UPOS  XPOS    UFeats  AllTags
+2023-06-02 11:40:14 INFO: 94.99 92.86   93.12   91.51
+Tagger score:
+sl_ssj 91.51
+

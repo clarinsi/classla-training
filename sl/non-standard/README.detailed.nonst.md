@@ -151,3 +151,24 @@ Eval results for the baseline+suk+dediacritized model on janes dev with and with
 | lemmatizer | SUK | 98.75 |
 
 This baseline+suk+dediacritized model was chosen as the one that is to be published, since it displays a lower performance drop on the dev set without diacritics and its performance on the dev set with diacritics is better than the baseline+suk model. In addition, the performance drop on the SUK dev set is also very small. The published models all include the lexicon.
+
+At the end, after everything was finalized, evaluation was carried out on the Janes test dataset as well The commands used are listed below:
+
+```
+python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk+dediacritized --eval_file conllu/test/janes_ud_test_empty.conllu --output_file out/pos/eval_on_test/baseline+suk+dediacritized_janes_pos.conllu --gold_file conllu/test/janes_ud_test.conllu --shorthand sl_ssj --mode predict >> eval_scores/pos/eval_on_test/baseline+suk+dediacritized_janes.txt
+
+python -m classla.models.tagger --save_dir models/pos/ --save_name baseline+suk+dediacritized --eval_file conllu/test/SUK_ud_test_empty.conllu --output_file out/pos/eval_on_test/baseline+suk+dediacritized_SUK_pos.conllu --gold_file conllu/test/SUK_ud_test.conllu --shorthand sl_ssj --mode predict >> eval_scores/pos/eval_on_test/baseline+suk+dediacritized_SUK.txt
+
+python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk+dediacritized --eval_file out/pos/eval_on_test/baseline+suk+dediacritized_janes_pos.conllu --output_file out/lemma/eval_on_test/baseline+suk+dediacritized_janes_pos_lemma.conllu --gold_file conllu/test/janes_ud_test.conllu --pos_model_path models/pos/baseline+suk+dediacritized --mode predict >> eval_scores/lemma/eval_on_test/baseline+suk+dediacritized_janes.txt
+
+python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline+suk+dediacritized --eval_file out/pos/eval_on_test/baseline+suk+dediacritized_SUK_pos.conllu --output_file out/lemma/eval_on_test/baseline+suk+dediacritized_SUK_pos_lemma.conllu --gold_file conllu/test/SUK_ud_test.conllu --pos_model_path models/pos/baseline+suk+dediacritized --mode predict >> eval_scores/lemma/eval_on_test/baseline+suk+dediacritized_SUK.txt
+```
+
+The final evaluation scores for the Slovenian non-standard models on the test set are as follows:
+
+| model | test set | AllTags/F1 |
+| --- | --- | --- |
+| tagger | janes | 91.51 |
+| lemmatizer | janes | 91.63 |
+| tagger | SUK | 95.80 |
+| lemmatizer | SUK | 98.77 |

@@ -53,3 +53,24 @@ The evaluation results are listed below. The models were evaluated on the standa
 | lemmatizer | sr-set_ud | 97.71 |
 | tagger | reldi-normtagner-sr | 92.11 |
 | lemmatizer | reldi-normtagner-sr | 94.92 |
+
+At the end, after everything was finallized, the non-standard models were evaluated on the test set as well:
+
+```
+python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos --eval_file conllu/sr_set-ud-test_empty.conllu --output_file out/pos/baseline_pos_st-test.conllu --gold_file conllu/sr_set-ud-test.conllu --shorthand sr_set --mode predict >> eval_scores/baseline_pos_st-test.txt
+
+python -m classla.models.tagger --save_dir models/pos/ --save_name baseline_pos --eval_file conllu/reldi-normtagner-sr-test_empty.conllu --output_file out/pos/baseline_pos_nonst-test.conllu --gold_file conllu/reldi-normtagner-sr-test.conllu --shorthand sr_set --mode predict >> eval_scores/baseline_pos_nonst-test.txt
+
+python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma --eval_file out/pos/baseline_pos_st-test.conllu --output_file out/lemma/baseline_pos_lemma_st-test.conllu --gold_file conllu/sr_set-ud-test.conllu --mode predict >> eval_scores/baseline_lemma_st-test.txt
+
+python -m classla.models.lemmatizer --model_dir models/lemma/ --model_file baseline_lemma --eval_file out/pos/baseline_pos_nonst-test.conllu --output_file out/lemma/baseline_pos_lemma_nonst-test.conllu --gold_file conllu/reldi-normtagner-sr-test.conllu --mode predict >> eval_scores/baseline_lemma_nonst-test.txt
+```
+
+The final evaluation results on the test set are shown below:
+
+| model | test set | AllTags/F1 |
+| --- | --- | --- |
+| tagger | sr-set_ud | 95.32 |
+| lemmatizer | sr-set_ud | 98.02 |
+| tagger | reldi-normtagner-sr | 92.56 |
+| lemmatizer | reldi-normtagner-sr | 94.92 |
