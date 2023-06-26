@@ -1,0 +1,6 @@
+Running parser in predict mode
+Loading model from: output//baseline_depparse
+Loading data with batch size 5000...
+Start evaluation...
+Parser score:
+bg_btb 91.18

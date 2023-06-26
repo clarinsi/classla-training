@@ -6,3 +6,4 @@
 /sl/non-standard/conllu/train/combined+dediacritized_ud_train.conllu
 Fixed_Commands.txt
 models/
+out-temp/
