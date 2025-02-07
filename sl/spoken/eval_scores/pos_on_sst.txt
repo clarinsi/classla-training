@@ -1,0 +1,6 @@
+Running tagger in predict mode
+Loading model from: models//pos
+Loading data with batch size 5000...
+Start evaluation...
+Tagger score:
+sl_sst 95.60

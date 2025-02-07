@@ -1,0 +1,6 @@
+Running parser in predict mode
+Loading model from: models//depparse
+Loading data with batch size 5000...
+Start evaluation...
+Parser score:
+sl_sst 90.09

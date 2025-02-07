@@ -1,0 +1,6 @@
+Running lemmatizer in predict mode
+Loading data with batch size 50...
+Running the seq2seq model...
+[Ensembling dict with seq2seq lemmatizer...]
+Lemma score:
+None 99.23
