@@ -24,6 +24,8 @@ Evaluation:
 
 - python -m classla.models.tagger --save_dir models/pos/ --save_name pos_sst6 --eval_file conllu/test/suk_1.1_test_empty.conllu --output_file out/suk_1.1_test_sst6.pos.conllu --gold_file conllu/test/suk_1.1_test.conllu --shorthand sl_sst --mode predict > eval_scores/pos_sst6_on_suk.txt
 
+Overfitting did not occur, so the model trained on 11 repetitions was chosen as the one to be published.
+
 ## Lemmatizer
 
 The lemmatizer was also trained on the 11-times oversampled training data file:
